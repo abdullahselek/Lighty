@@ -10,6 +10,7 @@
 		A415A0AB1E05B26B00C590B8 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A415A0A11E05B26A00C590B8 /* Lighty.framework */; };
 		A415A0B01E05B26B00C590B8 /* LightyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0AF1E05B26B00C590B8 /* LightyTests.swift */; };
 		A415A0B21E05B26B00C590B8 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A415A0A41E05B26A00C590B8 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A415A0BC1E05B38400C590B8 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0BB1E05B38400C590B8 /* LightyLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		A415A0AA1E05B26B00C590B8 /* LightyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A415A0AF1E05B26B00C590B8 /* LightyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightyTests.swift; sourceTree = "<group>"; };
 		A415A0B11E05B26B00C590B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A415A0BB1E05B38400C590B8 /* LightyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightyLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				A415A0A41E05B26A00C590B8 /* Lighty.h */,
+				A415A0BB1E05B38400C590B8 /* LightyLogger.swift */,
 				A415A0A51E05B26A00C590B8 /* Info.plist */,
 			);
 			path = Lighty;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					A415A0A01E05B26A00C590B8 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A415A0A91E05B26B00C590B8 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A415A0BC1E05B38400C590B8 /* LightyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +322,7 @@
 		A415A0B61E05B26B00C590B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -330,6 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.Lighty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -337,6 +344,7 @@
 		A415A0B71E05B26B00C590B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +365,7 @@
 		A415A0B91E05B26B00C590B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LightyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -369,6 +378,7 @@
 		A415A0BA1E05B26B00C590B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LightyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
