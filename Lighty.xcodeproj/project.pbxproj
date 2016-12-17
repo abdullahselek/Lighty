@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2D835B7BC2B55F0FCAB5A1 /* Pods_LightyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0600F85C69B7209A84E125 /* Pods_LightyTests.framework */; };
 		A415A0D11E05BD3500C590B8 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A415A0C71E05BD3500C590B8 /* Lighty.framework */; };
 		A415A0D61E05BD3500C590B8 /* LightyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0D51E05BD3500C590B8 /* LightyTests.swift */; };
 		A415A0D81E05BD3500C590B8 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A415A0CA1E05BD3500C590B8 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A415A0E21E05BD5900C590B8 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
+		EC901DD99F37A4FB1F81432D /* Pods_Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02390EDB15B088BD3A0C5057 /* Pods-LightyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4599A77C550012B2C26029EA /* Pods-Lighty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lighty/Pods-Lighty.debug.xcconfig"; sourceTree = "<group>"; };
+		8E0600F85C69B7209A84E125 /* Pods_LightyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02FECE6F89404BD3838E79C /* Pods-LightyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests.release.xcconfig"; sourceTree = "<group>"; };
 		A415A0C71E05BD3500C590B8 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A415A0CA1E05BD3500C590B8 /* Lighty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lighty.h; sourceTree = "<group>"; };
 		A415A0CB1E05BD3500C590B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +37,8 @@
 		A415A0D51E05BD3500C590B8 /* LightyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightyTests.swift; sourceTree = "<group>"; };
 		A415A0D71E05BD3500C590B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A415A0E11E05BD5900C590B8 /* LightyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightyLogger.swift; sourceTree = "<group>"; };
+		A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF518F78FE7BDCA5252F2A2 /* Pods-Lighty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lighty/Pods-Lighty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC901DD99F37A4FB1F81432D /* Pods_Lighty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +55,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				A415A0D11E05BD3500C590B8 /* Lighty.framework in Frameworks */,
+				3C2D835B7BC2B55F0FCAB5A1 /* Pods_LightyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		503ED489284888D698AE18BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4599A77C550012B2C26029EA /* Pods-Lighty.debug.xcconfig */,
+				AFF518F78FE7BDCA5252F2A2 /* Pods-Lighty.release.xcconfig */,
+				02390EDB15B088BD3A0C5057 /* Pods-LightyTests.debug.xcconfig */,
+				A02FECE6F89404BD3838E79C /* Pods-LightyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		623B826E413C3D2127F17A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */,
+				8E0600F85C69B7209A84E125 /* Pods_LightyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A415A0BD1E05BD3500C590B8 = {
 			isa = PBXGroup;
 			children = (
 				A415A0C91E05BD3500C590B8 /* Lighty */,
 				A415A0D41E05BD3500C590B8 /* LightyTests */,
 				A415A0C81E05BD3500C590B8 /* Products */,
+				503ED489284888D698AE18BF /* Pods */,
+				623B826E413C3D2127F17A96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,10 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A415A0DB1E05BD3500C590B8 /* Build configuration list for PBXNativeTarget "Lighty" */;
 			buildPhases = (
+				F5813ED8FF9D0F120C5294CC /* [CP] Check Pods Manifest.lock */,
 				A415A0C21E05BD3500C590B8 /* Sources */,
 				A415A0C31E05BD3500C590B8 /* Frameworks */,
 				A415A0C41E05BD3500C590B8 /* Headers */,
 				A415A0C51E05BD3500C590B8 /* Resources */,
+				305B089A1A29B80BB0F803F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A415A0DE1E05BD3500C590B8 /* Build configuration list for PBXNativeTarget "LightyTests" */;
 			buildPhases = (
+				B55EEEF9D260A39586C77DDA /* [CP] Check Pods Manifest.lock */,
 				A415A0CC1E05BD3500C590B8 /* Sources */,
 				A415A0CD1E05BD3500C590B8 /* Frameworks */,
 				A415A0CE1E05BD3500C590B8 /* Resources */,
+				1109DE344881A5E6B458A4A0 /* [CP] Embed Pods Frameworks */,
+				11F98E29D390CDC0099ABF89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +231,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1109DE344881A5E6B458A4A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11F98E29D390CDC0099ABF89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		305B089A1A29B80BB0F803F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lighty/Pods-Lighty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55EEEF9D260A39586C77DDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5813ED8FF9D0F120C5294CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A415A0C21E05BD3500C590B8 /* Sources */ = {
@@ -324,6 +439,7 @@
 		};
 		A415A0DC1E05BD3500C590B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4599A77C550012B2C26029EA /* Pods-Lighty.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -346,6 +462,7 @@
 		};
 		A415A0DD1E05BD3500C590B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF518F78FE7BDCA5252F2A2 /* Pods-Lighty.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -367,6 +484,7 @@
 		};
 		A415A0DF1E05BD3500C590B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02390EDB15B088BD3A0C5057 /* Pods-LightyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LightyTests/Info.plist;
@@ -379,6 +497,7 @@
 		};
 		A415A0E01E05BD3500C590B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02FECE6F89404BD3838E79C /* Pods-LightyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LightyTests/Info.plist;
