@@ -27,7 +27,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-import Cocoa
+import Foundation
 
 public enum LightyColor: String {
     case white = "\u{001B}[0;37m" // white
@@ -63,5 +63,5 @@ public class LightyLogger {
             return .red
         }
     }
-
+    
 }
