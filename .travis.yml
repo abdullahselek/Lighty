@@ -1,0 +1,22 @@
+language: objective-c
+osx_image: xcode8
+xcode_project: Lighty.xcworkspace
+xcode_scheme: LightyTests
+xcode_sdk: iphonesimulator10.0
+
+branches:
+ only:
+ - master
+
+before_install:
+- rm -rf /Users/travis/Library/Developer/Xcode/DerivedData/Lighty-*/
+- rvm use $RVM_RUBY_VERSION
+
+install:
+- bundle
+- bundle install --without=documentation --path ../travis_bundle_dir
+
+script: 
+- xcodebuild -workspace Lighty.xcworkspace -scheme Lighty -destination "platform=iOS Simulator,name=iPhone 6s,OS=10.0" clean test | xcpretty
+
+after_success: slather
