@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3C2D835B7BC2B55F0FCAB5A1 /* Pods_LightyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0600F85C69B7209A84E125 /* Pods_LightyTests.framework */; };
 		A415A0D11E05BD3500C590B8 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A415A0C71E05BD3500C590B8 /* Lighty.framework */; };
-		A415A0D61E05BD3500C590B8 /* LightyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0D51E05BD3500C590B8 /* LightyTests.swift */; };
 		A415A0D81E05BD3500C590B8 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A415A0CA1E05BD3500C590B8 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A415A0E21E05BD5900C590B8 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
 		A48085741E0673AE0055F848 /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48085731E0673AE0055F848 /* LightyLoggerTests.swift */; };
@@ -35,7 +34,6 @@
 		A415A0CA1E05BD3500C590B8 /* Lighty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lighty.h; sourceTree = "<group>"; };
 		A415A0CB1E05BD3500C590B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A415A0D01E05BD3500C590B8 /* LightyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A415A0D51E05BD3500C590B8 /* LightyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightyTests.swift; sourceTree = "<group>"; };
 		A415A0D71E05BD3500C590B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A415A0E11E05BD5900C590B8 /* LightyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightyLogger.swift; sourceTree = "<group>"; };
 		A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +115,6 @@
 		A415A0D41E05BD3500C590B8 /* LightyTests */ = {
 			isa = PBXGroup;
 			children = (
-				A415A0D51E05BD3500C590B8 /* LightyTests.swift */,
 				A415A0D71E05BD3500C590B8 /* Info.plist */,
 				A48085731E0673AE0055F848 /* LightyLoggerTests.swift */,
 			);
@@ -327,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48085741E0673AE0055F848 /* LightyLoggerTests.swift in Sources */,
-				A415A0D61E05BD3500C590B8 /* LightyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
