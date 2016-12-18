@@ -65,5 +65,9 @@ public class LightyLogger {
             return .red
         }
     }
+
+    internal func track(message: String, file: String = #file, function: String = #function, line: Int = #line) -> String {
+        return "message called from \(#function) \(#file):\(#line)"
+    }
     
 }

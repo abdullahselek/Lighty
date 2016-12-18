@@ -28,6 +28,12 @@ class LightyLoggerTests: QuickSpec {
                     expect(logger.getColorWithType(messageType: .error)).to(equal(LightyColor.red))
                 })
             })
+            context("track", {
+                it("should return file, function and line number", closure: {
+                    let path = logger.track(message: "test")
+                    expect(path).notTo(beNil())
+                })
+            })
         })
     }
 
