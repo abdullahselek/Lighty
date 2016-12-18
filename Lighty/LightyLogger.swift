@@ -49,6 +49,8 @@ public enum LightyMessageType {
 
 public class LightyLogger {
 
+    public static let sharedInstance: LightyLogger = LightyLogger()
+
     internal func getColorWithType(messageType: LightyMessageType) -> LightyColor {
         switch messageType {
         case .verbose:
