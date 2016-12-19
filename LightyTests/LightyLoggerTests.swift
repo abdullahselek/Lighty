@@ -34,7 +34,29 @@ class LightyLoggerTests: QuickSpec {
                     expect(path).notTo(beNil())
                 })
             })
+            context("log", {
+                it("should print message", closure: {
+                    let mocklogger = MockLightyLogger()
+                    mocklogger.log(type: .error, message: "test")
+                    expect(mocklogger.logged).to(beTrue())
+                })
+            })
         })
+    }
+
+}
+
+class MockLightyLogger: LightyLogger {
+
+    var logged = false
+
+    override public func log(type: LightyMessageType,
+                             message: String,
+                             file: String = #file,
+                             function: String = #function,
+                             line: Int = #line) {
+        super.log(type: type, message: message)
+        logged = true
     }
 
 }
