@@ -67,7 +67,17 @@ public class LightyLogger {
     }
 
     internal func track(message: String, file: String = #file, function: String = #function, line: Int = #line) -> String {
-        return "message called from \(#function) \(#file):\(#line)"
+        return message + " called from \(#function) \(#file):\(#line)"
+    }
+
+    public func log(type: LightyMessageType,
+                    message: String,
+                    file: String = #file,
+                    function: String = #function,
+                    line: Int = #line) {
+        let trackedMessage = track(message: message)
+        let color = getColorWithType(messageType: type)
+        print(color.rawValue + trackedMessage)
     }
     
 }
