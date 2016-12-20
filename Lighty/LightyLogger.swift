@@ -37,7 +37,7 @@ public enum LightyMessageType {
     case error
 }
 
-private struct Emojis {
+private struct Emoji {
     static let Empty = ""
     static let Verbose = "💜"
     static let Debug = "💙"
@@ -53,15 +53,15 @@ public class LightyLogger {
     internal func getAccessoryWithType(messageType: LightyMessageType) -> String {
         switch messageType {
         case .verbose:
-            return Emojis.Verbose
+            return Emoji.Verbose
         case .debug:
-            return Emojis.Debug
+            return Emoji.Debug
         case .info:
-            return Emojis.Info
+            return Emoji.Info
         case .warn:
-            return Emojis.Warn
+            return Emoji.Warn
         case .error:
-            return Emojis.Error
+            return Emoji.Error
         }
     }
 
@@ -76,7 +76,7 @@ public class LightyLogger {
                     line: Int = #line) {
         let trackedMessage = track(message: message)
         let emoji = getAccessoryWithType(messageType: type)
-        print(emoji + trackedMessage + LightyColor.foreground.rawValue)
+        print(emoji + " " + trackedMessage + " " + emoji)
     }
     
 }
