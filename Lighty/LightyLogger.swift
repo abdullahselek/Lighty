@@ -74,9 +74,19 @@ public class LightyLogger {
                     file: String = #file,
                     function: String = #function,
                     line: Int = #line) {
-        let trackedMessage = track(message: message)
+
+        let fileExtension = file.nsstring.lastPathComponent.nsstring.pathExtension
+        let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
+
+        let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         let emoji = getAccessoryWithType(messageType: type)
-        print(emoji + " " + trackedMessage + " " + emoji)
+        print(emoji + " " + trackedString + " / " +  message + " " + emoji)
     }
     
+}
+
+private extension String {
+
+    var nsstring: NSString { return self as NSString }
+
 }
