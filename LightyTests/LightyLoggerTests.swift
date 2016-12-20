@@ -21,11 +21,11 @@ class LightyLoggerTests: QuickSpec {
         describe("LigtyLogger Tests", {
             context("getColorWithType", {
                 it("should return correct color", closure: {
-                    expect(logger.getColorWithType(messageType: .verbose)).to(equal(LightyColor.white))
-                    expect(logger.getColorWithType(messageType: .debug)).to(equal(LightyColor.blue))
-                    expect(logger.getColorWithType(messageType: .info)).to(equal(LightyColor.green))
-                    expect(logger.getColorWithType(messageType: .warn)).to(equal(LightyColor.yellow))
-                    expect(logger.getColorWithType(messageType: .error)).to(equal(LightyColor.red))
+                    expect(logger.getAccessoryWithType(messageType: .verbose)).to(equal("💜"))
+                    expect(logger.getAccessoryWithType(messageType: .debug)).to(equal("💙"))
+                    expect(logger.getAccessoryWithType(messageType: .info)).to(equal("💚"))
+                    expect(logger.getAccessoryWithType(messageType: .warn)).to(equal("💛"))
+                    expect(logger.getAccessoryWithType(messageType: .error)).to(equal("❤️"))
                 })
             })
             context("track", {
