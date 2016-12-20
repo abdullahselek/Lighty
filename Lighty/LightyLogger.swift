@@ -29,16 +29,6 @@
 
 import Foundation
 
-public enum LightyColor: String {
-    case white = "\u{001B}[0;37m" // white
-    case blue = "\u{001B}[0;34m" // blue
-    case green = "\u{001B}[0;32m" // green
-    case yellow = "\u{001B}[0;33m" // yellow
-    case red = "\u{001B}[0;31m" // red
-    case foreground = "\u{001B}[0;39m" // default foreground color
-    case background = "\u{001B}[0;49m" // default background color
-}
-
 public enum LightyMessageType {
     case verbose
     case debug
