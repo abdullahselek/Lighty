@@ -11,11 +11,16 @@ import Lighty
 
 class ViewController: UIViewController {
 
+    let logger = LightyLogger.sharedInstance
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        logger.log(type: .verbose, message: "Verbose")
+        logger.log(type: .debug, message: "Debug")
+        logger.log(type: .info, message: "Info")
+        logger.log(type: .warn, message: "Warn")
         LightyLogger.sharedInstance.log(type: .error, message: "Error for test :)")
-        
     }
 
     override func didReceiveMemoryWarning() {
