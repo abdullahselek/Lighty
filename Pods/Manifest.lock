@@ -1,15 +1,22 @@
 PODS:
+  - Lighty (0.1)
   - Nimble (5.1.1)
   - Quick (1.0.0)
 
 DEPENDENCIES:
+  - Lighty (from `.`)
   - Nimble
   - Quick
 
+EXTERNAL SOURCES:
+  Lighty:
+    :path: "."
+
 SPEC CHECKSUMS:
+  Lighty: 417c22b204fef171a254c5199a42524843d6d8e6
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: 54965c5707a5b810175c7fd6c7a82ca15b89ef49
+PODFILE CHECKSUM: e67a288c4f7afdc3a35b98e94348efed28d9b621
 
 COCOAPODS: 1.1.1

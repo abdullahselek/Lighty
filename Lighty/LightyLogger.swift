@@ -77,7 +77,7 @@ public class LightyLogger {
                     line: Int = #line) {
         let trackedMessage = track(message: message)
         let color = getColorWithType(messageType: type)
-        print(color.rawValue + trackedMessage)
+        print(color.rawValue + trackedMessage + LightyColor.foreground.rawValue)
     }
     
 }
