@@ -30,3 +30,8 @@ target 'LightySample' do
 	use_frameworks!
 	product_pods
 end
+
+target 'LightySample macOS' do
+	use_frameworks!
+	product_pods
+end

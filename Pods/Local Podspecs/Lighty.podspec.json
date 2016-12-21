@@ -15,7 +15,8 @@
     "tag": "0.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "9.0",
+    "osx": "10.9"
   },
   "source_files": "Lighty/*.swift",
   "requires_arc": true

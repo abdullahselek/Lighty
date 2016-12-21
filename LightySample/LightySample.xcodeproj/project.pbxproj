@@ -13,6 +13,10 @@
 		A416CD8E1E0830D500E92EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A416CD8C1E0830D500E92EAD /* Main.storyboard */; };
 		A416CD901E0830D500E92EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A416CD8F1E0830D500E92EAD /* Assets.xcassets */; };
 		A416CD931E0830D500E92EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A416CD911E0830D500E92EAD /* LaunchScreen.storyboard */; };
+		A4E45E311E0A5D8A00C77A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E45E301E0A5D8A00C77A11 /* AppDelegate.swift */; };
+		A4E45E331E0A5D8A00C77A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E45E321E0A5D8A00C77A11 /* Assets.xcassets */; };
+		A4E45E361E0A5D8A00C77A11 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E45E341E0A5D8A00C77A11 /* MainMenu.xib */; };
+		F1337E0C5A56451B40A1B041 /* Pods_LightySample_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92175467D63D53180D922B2 /* Pods_LightySample_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,14 @@
 		A416CD8F1E0830D500E92EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A416CD921E0830D500E92EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A416CD941E0830D500E92EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E45E2E1E0A5D8A00C77A11 /* LightySample macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LightySample macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E45E301E0A5D8A00C77A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4E45E321E0A5D8A00C77A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E45E351E0A5D8A00C77A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A4E45E371E0A5D8A00C77A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92175467D63D53180D922B2 /* Pods_LightySample_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightySample_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD81850FCBBF146809FBA944 /* Pods-LightySample macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightySample macOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LightySample macOS/Pods-LightySample macOS.release.xcconfig"; sourceTree = "<group>"; };
+		FC3A16868B206E06D1FEF9F8 /* Pods-LightySample macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightySample macOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LightySample macOS/Pods-LightySample macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FFE2A408492B22DD249853CF /* Pods-LightySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightySample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LightySample/Pods-LightySample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +49,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4E45E2B1E0A5D8A00C77A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1337E0C5A56451B40A1B041 /* Pods_LightySample_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -45,6 +65,8 @@
 			children = (
 				5A5A6D1F1F5524EF60603B3F /* Pods-LightySample.debug.xcconfig */,
 				FFE2A408492B22DD249853CF /* Pods-LightySample.release.xcconfig */,
+				FC3A16868B206E06D1FEF9F8 /* Pods-LightySample macOS.debug.xcconfig */,
+				DD81850FCBBF146809FBA944 /* Pods-LightySample macOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -53,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A09AFC0A2FF5E036D9F10D18 /* Pods_LightySample.framework */,
+				B92175467D63D53180D922B2 /* Pods_LightySample_macOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -61,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A416CD871E0830D500E92EAD /* LightySample */,
+				A4E45E2F1E0A5D8A00C77A11 /* LightySample macOS */,
 				A416CD861E0830D500E92EAD /* Products */,
 				195D981F13F2DA2F82F85E4B /* Pods */,
 				3D7E72A36A248FC37875CA37 /* Frameworks */,
@@ -71,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A416CD851E0830D500E92EAD /* LightySample.app */,
+				A4E45E2E1E0A5D8A00C77A11 /* LightySample macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +111,17 @@
 				A416CD941E0830D500E92EAD /* Info.plist */,
 			);
 			path = LightySample;
+			sourceTree = "<group>";
+		};
+		A4E45E2F1E0A5D8A00C77A11 /* LightySample macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4E45E301E0A5D8A00C77A11 /* AppDelegate.swift */,
+				A4E45E321E0A5D8A00C77A11 /* Assets.xcassets */,
+				A4E45E341E0A5D8A00C77A11 /* MainMenu.xib */,
+				A4E45E371E0A5D8A00C77A11 /* Info.plist */,
+			);
+			path = "LightySample macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +147,26 @@
 			productReference = A416CD851E0830D500E92EAD /* LightySample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A4E45E2D1E0A5D8A00C77A11 /* LightySample macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E45E3A1E0A5D8A00C77A11 /* Build configuration list for PBXNativeTarget "LightySample macOS" */;
+			buildPhases = (
+				F5F821A90FACDF285DC14A74 /* [CP] Check Pods Manifest.lock */,
+				A4E45E2A1E0A5D8A00C77A11 /* Sources */,
+				A4E45E2B1E0A5D8A00C77A11 /* Frameworks */,
+				A4E45E2C1E0A5D8A00C77A11 /* Resources */,
+				ABE969604F35EA1799E10084 /* [CP] Embed Pods Frameworks */,
+				FA1C3C8BAEBCD4F0D5C433F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LightySample macOS";
+			productName = "LightySample macOS";
+			productReference = A4E45E2E1E0A5D8A00C77A11 /* LightySample macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,6 +178,10 @@
 				ORGANIZATIONNAME = "Abdullah Selek";
 				TargetAttributes = {
 					A416CD841E0830D500E92EAD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					A4E45E2D1E0A5D8A00C77A11 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -141,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				A416CD841E0830D500E92EAD /* LightySample */,
+				A4E45E2D1E0A5D8A00C77A11 /* LightySample macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +214,15 @@
 				A416CD931E0830D500E92EAD /* LaunchScreen.storyboard in Resources */,
 				A416CD901E0830D500E92EAD /* Assets.xcassets in Resources */,
 				A416CD8E1E0830D500E92EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E45E2C1E0A5D8A00C77A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E45E331E0A5D8A00C77A11 /* Assets.xcassets in Resources */,
+				A4E45E361E0A5D8A00C77A11 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +274,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		ABE969604F35EA1799E10084 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LightySample macOS/Pods-LightySample macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F821A90FACDF285DC14A74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1C3C8BAEBCD4F0D5C433F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LightySample macOS/Pods-LightySample macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,6 +328,14 @@
 			files = (
 				A416CD8B1E0830D500E92EAD /* ViewController.swift in Sources */,
 				A416CD891E0830D500E92EAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E45E2A1E0A5D8A00C77A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E45E311E0A5D8A00C77A11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +356,14 @@
 				A416CD921E0830D500E92EAD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E45E341E0A5D8A00C77A11 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E45E351E0A5D8A00C77A11 /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,6 +410,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -323,6 +455,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -357,6 +490,40 @@
 			};
 			name = Release;
 		};
+		A4E45E381E0A5D8A00C77A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3A16868B206E06D1FEF9F8 /* Pods-LightySample macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LightySample macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.LightySample-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4E45E391E0A5D8A00C77A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD81850FCBBF146809FBA944 /* Pods-LightySample macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LightySample macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.LightySample-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -374,6 +541,15 @@
 			buildConfigurations = (
 				A416CD981E0830D500E92EAD /* Debug */,
 				A416CD991E0830D500E92EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E45E3A1E0A5D8A00C77A11 /* Build configuration list for PBXNativeTarget "LightySample macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E45E381E0A5D8A00C77A11 /* Debug */,
+				A4E45E391E0A5D8A00C77A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
