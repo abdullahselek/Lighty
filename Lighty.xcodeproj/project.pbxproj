@@ -12,6 +12,8 @@
 		A415A0D81E05BD3500C590B8 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A415A0CA1E05BD3500C590B8 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A415A0E21E05BD5900C590B8 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
 		A48085741E0673AE0055F848 /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48085731E0673AE0055F848 /* LightyLoggerTests.swift */; };
+		A4867E7A1E0B9B5700AEA042 /* Lighty tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4867E781E0B9B5700AEA042 /* Lighty tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4867E7E1E0B9B9400AEA042 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
 		A4E45E251E0A5CDE00C77A11 /* Lighty macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E45E231E0A5CDE00C77A11 /* Lighty macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4E45E291E0A5D0700C77A11 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
 		EC901DD99F37A4FB1F81432D /* Pods_Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */; };
@@ -40,6 +42,9 @@
 		A415A0E11E05BD5900C590B8 /* LightyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightyLogger.swift; sourceTree = "<group>"; };
 		A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48085731E0673AE0055F848 /* LightyLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightyLoggerTests.swift; sourceTree = "<group>"; };
+		A4867E761E0B9B5700AEA042 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4867E781E0B9B5700AEA042 /* Lighty tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lighty tvOS.h"; sourceTree = "<group>"; };
+		A4867E791E0B9B5700AEA042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4E45E211E0A5CDE00C77A11 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E45E231E0A5CDE00C77A11 /* Lighty macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lighty macOS.h"; sourceTree = "<group>"; };
 		A4E45E241E0A5CDE00C77A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +66,13 @@
 			files = (
 				A415A0D11E05BD3500C590B8 /* Lighty.framework in Frameworks */,
 				3C2D835B7BC2B55F0FCAB5A1 /* Pods_LightyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4867E721E0B9B5700AEA042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +112,7 @@
 				A415A0C91E05BD3500C590B8 /* Lighty */,
 				A415A0D41E05BD3500C590B8 /* LightyTests */,
 				A4E45E221E0A5CDE00C77A11 /* Lighty macOS */,
+				A4867E771E0B9B5700AEA042 /* Lighty tvOS */,
 				A415A0C81E05BD3500C590B8 /* Products */,
 				503ED489284888D698AE18BF /* Pods */,
 				623B826E413C3D2127F17A96 /* Frameworks */,
@@ -112,6 +125,7 @@
 				A415A0C71E05BD3500C590B8 /* Lighty.framework */,
 				A415A0D01E05BD3500C590B8 /* LightyTests.xctest */,
 				A4E45E211E0A5CDE00C77A11 /* Lighty.framework */,
+				A4867E761E0B9B5700AEA042 /* Lighty.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +149,15 @@
 			path = LightyTests;
 			sourceTree = "<group>";
 		};
+		A4867E771E0B9B5700AEA042 /* Lighty tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4867E781E0B9B5700AEA042 /* Lighty tvOS.h */,
+				A4867E791E0B9B5700AEA042 /* Info.plist */,
+			);
+			path = "Lighty tvOS";
+			sourceTree = "<group>";
+		};
 		A4E45E221E0A5CDE00C77A11 /* Lighty macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A415A0D81E05BD3500C590B8 /* Lighty.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4867E731E0B9B5700AEA042 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4867E7A1E0B9B5700AEA042 /* Lighty tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +238,24 @@
 			productReference = A415A0D01E05BD3500C590B8 /* LightyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A4867E751E0B9B5700AEA042 /* Lighty tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4867E7D1E0B9B5700AEA042 /* Build configuration list for PBXNativeTarget "Lighty tvOS" */;
+			buildPhases = (
+				A4867E711E0B9B5700AEA042 /* Sources */,
+				A4867E721E0B9B5700AEA042 /* Frameworks */,
+				A4867E731E0B9B5700AEA042 /* Headers */,
+				A4867E741E0B9B5700AEA042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lighty tvOS";
+			productName = "Lighty tvOS";
+			productReference = A4867E761E0B9B5700AEA042 /* Lighty.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A4E45E201E0A5CDE00C77A11 /* Lighty macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4E45E281E0A5CDE00C77A11 /* Build configuration list for PBXNativeTarget "Lighty macOS" */;
@@ -244,6 +293,10 @@
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
+					A4867E751E0B9B5700AEA042 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
 					A4E45E201E0A5CDE00C77A11 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
@@ -265,6 +318,7 @@
 				A415A0C61E05BD3500C590B8 /* Lighty */,
 				A415A0CF1E05BD3500C590B8 /* LightyTests */,
 				A4E45E201E0A5CDE00C77A11 /* Lighty macOS */,
+				A4867E751E0B9B5700AEA042 /* Lighty tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -278,6 +332,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A415A0CE1E05BD3500C590B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4867E741E0B9B5700AEA042 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,6 +446,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48085741E0673AE0055F848 /* LightyLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4867E711E0B9B5700AEA042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4867E7E1E0B9B9400AEA042 /* LightyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +660,48 @@
 			};
 			name = Release;
 		};
+		A4867E7B1E0B9B5700AEA042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Lighty tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-tvOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A4867E7C1E0B9B5700AEA042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Lighty tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-tvOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		A4E45E261E0A5CDE00C77A11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -664,6 +775,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A4867E7D1E0B9B5700AEA042 /* Build configuration list for PBXNativeTarget "Lighty tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4867E7B1E0B9B5700AEA042 /* Debug */,
+				A4867E7C1E0B9B5700AEA042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		A4E45E281E0A5CDE00C77A11 /* Build configuration list for PBXNativeTarget "Lighty macOS" */ = {
 			isa = XCConfigurationList;
