@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Lighty.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LightySample/LightySample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "container:Lighty.xcodeproj">
    </FileRef>
 </Workspace>

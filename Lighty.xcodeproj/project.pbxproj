@@ -7,345 +7,409 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C2D835B7BC2B55F0FCAB5A1 /* Pods_LightyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0600F85C69B7209A84E125 /* Pods_LightyTests.framework */; };
-		A415A0D11E05BD3500C590B8 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A415A0C71E05BD3500C590B8 /* Lighty.framework */; };
-		A415A0D81E05BD3500C590B8 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A415A0CA1E05BD3500C590B8 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A415A0E21E05BD5900C590B8 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
-		A48085741E0673AE0055F848 /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48085731E0673AE0055F848 /* LightyLoggerTests.swift */; };
-		A4867E7A1E0B9B5700AEA042 /* Lighty tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4867E781E0B9B5700AEA042 /* Lighty tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4867E7E1E0B9B9400AEA042 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
-		A4E45E251E0A5CDE00C77A11 /* Lighty macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E45E231E0A5CDE00C77A11 /* Lighty macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4E45E291E0A5D0700C77A11 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415A0E11E05BD5900C590B8 /* LightyLogger.swift */; };
-		EC901DD99F37A4FB1F81432D /* Pods_Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */; };
+		A4DBDE5A1E0D1D6800E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE501E0D1D6800E78A70 /* Lighty.framework */; };
+		A4DBDE5F1E0D1D6800E78A70 /* Lighty_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE5E1E0D1D6800E78A70 /* Lighty_iOSTests.swift */; };
+		A4DBDE761E0D1D8600E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */; };
+		A4DBDE7B1E0D1D8600E78A70 /* Lighty_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE7A1E0D1D8600E78A70 /* Lighty_macOSTests.swift */; };
+		A4DBDE921E0D1D9A00E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */; };
+		A4DBDE971E0D1D9A00E78A70 /* Lighty_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE961E0D1D9A00E78A70 /* Lighty_tvOSTests.swift */; };
+		A4DBDEA31E0D1DED00E78A70 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DBDEA41E0D1DED00E78A70 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */; };
+		A4DBDEAB1E0D1F1F00E78A70 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DBDEAC1E0D1F1F00E78A70 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DBDEAD1E0D1F2A00E78A70 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */; };
+		A4DBDEAE1E0D1F2A00E78A70 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A415A0D21E05BD3500C590B8 /* PBXContainerItemProxy */ = {
+		A4DBDE5B1E0D1D6800E78A70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A415A0BE1E05BD3500C590B8 /* Project object */;
+			containerPortal = A4DBDE451E0D1D4200E78A70 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A415A0C61E05BD3500C590B8;
-			remoteInfo = Lighty;
+			remoteGlobalIDString = A4DBDE4F1E0D1D6800E78A70;
+			remoteInfo = "Lighty-iOS";
+		};
+		A4DBDE771E0D1D8600E78A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DBDE451E0D1D4200E78A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DBDE6C1E0D1D8500E78A70;
+			remoteInfo = "Lighty-macOS";
+		};
+		A4DBDE931E0D1D9A00E78A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DBDE451E0D1D4200E78A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DBDE881E0D1D9A00E78A70;
+			remoteInfo = "Lighty-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02390EDB15B088BD3A0C5057 /* Pods-LightyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4599A77C550012B2C26029EA /* Pods-Lighty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lighty/Pods-Lighty.debug.xcconfig"; sourceTree = "<group>"; };
-		8E0600F85C69B7209A84E125 /* Pods_LightyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A02FECE6F89404BD3838E79C /* Pods-LightyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests.release.xcconfig"; sourceTree = "<group>"; };
-		A415A0C71E05BD3500C590B8 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A415A0CA1E05BD3500C590B8 /* Lighty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lighty.h; sourceTree = "<group>"; };
-		A415A0CB1E05BD3500C590B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A415A0D01E05BD3500C590B8 /* LightyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A415A0D71E05BD3500C590B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A415A0E11E05BD5900C590B8 /* LightyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightyLogger.swift; sourceTree = "<group>"; };
-		A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A48085731E0673AE0055F848 /* LightyLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightyLoggerTests.swift; sourceTree = "<group>"; };
-		A4867E761E0B9B5700AEA042 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4867E781E0B9B5700AEA042 /* Lighty tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lighty tvOS.h"; sourceTree = "<group>"; };
-		A4867E791E0B9B5700AEA042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4E45E211E0A5CDE00C77A11 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E45E231E0A5CDE00C77A11 /* Lighty macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lighty macOS.h"; sourceTree = "<group>"; };
-		A4E45E241E0A5CDE00C77A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFF518F78FE7BDCA5252F2A2 /* Pods-Lighty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lighty/Pods-Lighty.release.xcconfig"; sourceTree = "<group>"; };
+		A4DBDE501E0D1D6800E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DBDE591E0D1D6800E78A70 /* Lighty-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DBDE5E1E0D1D6800E78A70 /* Lighty_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighty_iOSTests.swift; sourceTree = "<group>"; };
+		A4DBDE601E0D1D6800E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DBDE751E0D1D8600E78A70 /* Lighty-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DBDE7A1E0D1D8600E78A70 /* Lighty_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighty_macOSTests.swift; sourceTree = "<group>"; };
+		A4DBDE7C1E0D1D8600E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DBDE911E0D1D9A00E78A70 /* Lighty-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DBDE961E0D1D9A00E78A70 /* Lighty_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighty_tvOSTests.swift; sourceTree = "<group>"; };
+		A4DBDE981E0D1D9A00E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DBDEA11E0D1DED00E78A70 /* Lighty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lighty.h; path = Sources/Lighty.h; sourceTree = "<group>"; };
+		A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightyLogger.swift; path = Sources/LightyLogger.swift; sourceTree = "<group>"; };
+		A4DBDEA51E0D1E9900E78A70 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
+		A4DBDEA61E0D1E9900E78A70 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "Sources/Info-macOS.plist"; sourceTree = "<group>"; };
+		A4DBDEA71E0D1E9900E78A70 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A415A0C31E05BD3500C590B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC901DD99F37A4FB1F81432D /* Pods_Lighty.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A415A0CD1E05BD3500C590B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A415A0D11E05BD3500C590B8 /* Lighty.framework in Frameworks */,
-				3C2D835B7BC2B55F0FCAB5A1 /* Pods_LightyTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4867E721E0B9B5700AEA042 /* Frameworks */ = {
+		A4DBDE4C1E0D1D6800E78A70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4E45E1D1E0A5CDE00C77A11 /* Frameworks */ = {
+		A4DBDE561E0D1D6800E78A70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DBDE5A1E0D1D6800E78A70 /* Lighty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE691E0D1D8500E78A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE721E0D1D8600E78A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DBDE761E0D1D8600E78A70 /* Lighty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE851E0D1D9A00E78A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE8E1E0D1D9A00E78A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DBDE921E0D1D9A00E78A70 /* Lighty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		503ED489284888D698AE18BF /* Pods */ = {
+		A4DBDE441E0D1D4200E78A70 = {
 			isa = PBXGroup;
 			children = (
-				4599A77C550012B2C26029EA /* Pods-Lighty.debug.xcconfig */,
-				AFF518F78FE7BDCA5252F2A2 /* Pods-Lighty.release.xcconfig */,
-				02390EDB15B088BD3A0C5057 /* Pods-LightyTests.debug.xcconfig */,
-				A02FECE6F89404BD3838E79C /* Pods-LightyTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		623B826E413C3D2127F17A96 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A447F14D1CB59D86095CEB65 /* Pods_Lighty.framework */,
-				8E0600F85C69B7209A84E125 /* Pods_LightyTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A415A0BD1E05BD3500C590B8 = {
-			isa = PBXGroup;
-			children = (
-				A415A0C91E05BD3500C590B8 /* Lighty */,
-				A415A0D41E05BD3500C590B8 /* LightyTests */,
-				A4E45E221E0A5CDE00C77A11 /* Lighty macOS */,
-				A4867E771E0B9B5700AEA042 /* Lighty tvOS */,
-				A415A0C81E05BD3500C590B8 /* Products */,
-				503ED489284888D698AE18BF /* Pods */,
-				623B826E413C3D2127F17A96 /* Frameworks */,
+				A4DBDEA01E0D1DC200E78A70 /* Sources */,
+				A4DBDE5D1E0D1D6800E78A70 /* Lighty-iOSTests */,
+				A4DBDE791E0D1D8600E78A70 /* Lighty-macOSTests */,
+				A4DBDE951E0D1D9A00E78A70 /* Lighty-tvOSTests */,
+				A4DBDE511E0D1D6800E78A70 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A415A0C81E05BD3500C590B8 /* Products */ = {
+		A4DBDE511E0D1D6800E78A70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A415A0C71E05BD3500C590B8 /* Lighty.framework */,
-				A415A0D01E05BD3500C590B8 /* LightyTests.xctest */,
-				A4E45E211E0A5CDE00C77A11 /* Lighty.framework */,
-				A4867E761E0B9B5700AEA042 /* Lighty.framework */,
+				A4DBDE501E0D1D6800E78A70 /* Lighty.framework */,
+				A4DBDE591E0D1D6800E78A70 /* Lighty-iOSTests.xctest */,
+				A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */,
+				A4DBDE751E0D1D8600E78A70 /* Lighty-macOSTests.xctest */,
+				A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */,
+				A4DBDE911E0D1D9A00E78A70 /* Lighty-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A415A0C91E05BD3500C590B8 /* Lighty */ = {
+		A4DBDE5D1E0D1D6800E78A70 /* Lighty-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				A415A0CA1E05BD3500C590B8 /* Lighty.h */,
-				A415A0E11E05BD5900C590B8 /* LightyLogger.swift */,
-				A415A0CB1E05BD3500C590B8 /* Info.plist */,
+				A4DBDE5E1E0D1D6800E78A70 /* Lighty_iOSTests.swift */,
+				A4DBDE601E0D1D6800E78A70 /* Info.plist */,
 			);
-			path = Lighty;
+			path = "Lighty-iOSTests";
 			sourceTree = "<group>";
 		};
-		A415A0D41E05BD3500C590B8 /* LightyTests */ = {
+		A4DBDE791E0D1D8600E78A70 /* Lighty-macOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				A415A0D71E05BD3500C590B8 /* Info.plist */,
-				A48085731E0673AE0055F848 /* LightyLoggerTests.swift */,
+				A4DBDE7A1E0D1D8600E78A70 /* Lighty_macOSTests.swift */,
+				A4DBDE7C1E0D1D8600E78A70 /* Info.plist */,
 			);
-			path = LightyTests;
+			path = "Lighty-macOSTests";
 			sourceTree = "<group>";
 		};
-		A4867E771E0B9B5700AEA042 /* Lighty tvOS */ = {
+		A4DBDE951E0D1D9A00E78A70 /* Lighty-tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4867E781E0B9B5700AEA042 /* Lighty tvOS.h */,
-				A4867E791E0B9B5700AEA042 /* Info.plist */,
+				A4DBDE961E0D1D9A00E78A70 /* Lighty_tvOSTests.swift */,
+				A4DBDE981E0D1D9A00E78A70 /* Info.plist */,
 			);
-			path = "Lighty tvOS";
+			path = "Lighty-tvOSTests";
 			sourceTree = "<group>";
 		};
-		A4E45E221E0A5CDE00C77A11 /* Lighty macOS */ = {
+		A4DBDEA01E0D1DC200E78A70 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A4E45E231E0A5CDE00C77A11 /* Lighty macOS.h */,
-				A4E45E241E0A5CDE00C77A11 /* Info.plist */,
+				A4DBDEA51E0D1E9900E78A70 /* Info-iOS.plist */,
+				A4DBDEA61E0D1E9900E78A70 /* Info-macOS.plist */,
+				A4DBDEA71E0D1E9900E78A70 /* Info-tvOS.plist */,
+				A4DBDEA11E0D1DED00E78A70 /* Lighty.h */,
+				A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */,
 			);
-			path = "Lighty macOS";
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A415A0C41E05BD3500C590B8 /* Headers */ = {
+		A4DBDE4D1E0D1D6800E78A70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A415A0D81E05BD3500C590B8 /* Lighty.h in Headers */,
+				A4DBDEA31E0D1DED00E78A70 /* Lighty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4867E731E0B9B5700AEA042 /* Headers */ = {
+		A4DBDE6A1E0D1D8500E78A70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4867E7A1E0B9B5700AEA042 /* Lighty tvOS.h in Headers */,
+				A4DBDEAB1E0D1F1F00E78A70 /* Lighty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4E45E1E1E0A5CDE00C77A11 /* Headers */ = {
+		A4DBDE861E0D1D9A00E78A70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E45E251E0A5CDE00C77A11 /* Lighty macOS.h in Headers */,
+				A4DBDEAC1E0D1F1F00E78A70 /* Lighty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A415A0C61E05BD3500C590B8 /* Lighty */ = {
+		A4DBDE4F1E0D1D6800E78A70 /* Lighty-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A415A0DB1E05BD3500C590B8 /* Build configuration list for PBXNativeTarget "Lighty" */;
+			buildConfigurationList = A4DBDE621E0D1D6800E78A70 /* Build configuration list for PBXNativeTarget "Lighty-iOS" */;
 			buildPhases = (
-				F5813ED8FF9D0F120C5294CC /* [CP] Check Pods Manifest.lock */,
-				A415A0C21E05BD3500C590B8 /* Sources */,
-				A415A0C31E05BD3500C590B8 /* Frameworks */,
-				A415A0C41E05BD3500C590B8 /* Headers */,
-				A415A0C51E05BD3500C590B8 /* Resources */,
-				305B089A1A29B80BB0F803F5 /* [CP] Copy Pods Resources */,
+				A4DBDE4B1E0D1D6800E78A70 /* Sources */,
+				A4DBDE4C1E0D1D6800E78A70 /* Frameworks */,
+				A4DBDE4D1E0D1D6800E78A70 /* Headers */,
+				A4DBDE4E1E0D1D6800E78A70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lighty;
-			productName = Lighty;
-			productReference = A415A0C71E05BD3500C590B8 /* Lighty.framework */;
+			name = "Lighty-iOS";
+			productName = "Lighty-iOS";
+			productReference = A4DBDE501E0D1D6800E78A70 /* Lighty.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A415A0CF1E05BD3500C590B8 /* LightyTests */ = {
+		A4DBDE581E0D1D6800E78A70 /* Lighty-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A415A0DE1E05BD3500C590B8 /* Build configuration list for PBXNativeTarget "LightyTests" */;
+			buildConfigurationList = A4DBDE651E0D1D6800E78A70 /* Build configuration list for PBXNativeTarget "Lighty-iOSTests" */;
 			buildPhases = (
-				B55EEEF9D260A39586C77DDA /* [CP] Check Pods Manifest.lock */,
-				A415A0CC1E05BD3500C590B8 /* Sources */,
-				A415A0CD1E05BD3500C590B8 /* Frameworks */,
-				A415A0CE1E05BD3500C590B8 /* Resources */,
-				1109DE344881A5E6B458A4A0 /* [CP] Embed Pods Frameworks */,
-				11F98E29D390CDC0099ABF89 /* [CP] Copy Pods Resources */,
+				A4DBDE551E0D1D6800E78A70 /* Sources */,
+				A4DBDE561E0D1D6800E78A70 /* Frameworks */,
+				A4DBDE571E0D1D6800E78A70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A415A0D31E05BD3500C590B8 /* PBXTargetDependency */,
+				A4DBDE5C1E0D1D6800E78A70 /* PBXTargetDependency */,
 			);
-			name = LightyTests;
-			productName = LightyTests;
-			productReference = A415A0D01E05BD3500C590B8 /* LightyTests.xctest */;
+			name = "Lighty-iOSTests";
+			productName = "Lighty-iOSTests";
+			productReference = A4DBDE591E0D1D6800E78A70 /* Lighty-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A4867E751E0B9B5700AEA042 /* Lighty tvOS */ = {
+		A4DBDE6C1E0D1D8500E78A70 /* Lighty-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4867E7D1E0B9B5700AEA042 /* Build configuration list for PBXNativeTarget "Lighty tvOS" */;
+			buildConfigurationList = A4DBDE7E1E0D1D8600E78A70 /* Build configuration list for PBXNativeTarget "Lighty-macOS" */;
 			buildPhases = (
-				A4867E711E0B9B5700AEA042 /* Sources */,
-				A4867E721E0B9B5700AEA042 /* Frameworks */,
-				A4867E731E0B9B5700AEA042 /* Headers */,
-				A4867E741E0B9B5700AEA042 /* Resources */,
+				A4DBDE681E0D1D8500E78A70 /* Sources */,
+				A4DBDE691E0D1D8500E78A70 /* Frameworks */,
+				A4DBDE6A1E0D1D8500E78A70 /* Headers */,
+				A4DBDE6B1E0D1D8500E78A70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Lighty tvOS";
-			productName = "Lighty tvOS";
-			productReference = A4867E761E0B9B5700AEA042 /* Lighty.framework */;
+			name = "Lighty-macOS";
+			productName = "Lighty-macOS";
+			productReference = A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A4E45E201E0A5CDE00C77A11 /* Lighty macOS */ = {
+		A4DBDE741E0D1D8600E78A70 /* Lighty-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4E45E281E0A5CDE00C77A11 /* Build configuration list for PBXNativeTarget "Lighty macOS" */;
+			buildConfigurationList = A4DBDE811E0D1D8600E78A70 /* Build configuration list for PBXNativeTarget "Lighty-macOSTests" */;
 			buildPhases = (
-				A4E45E1C1E0A5CDE00C77A11 /* Sources */,
-				A4E45E1D1E0A5CDE00C77A11 /* Frameworks */,
-				A4E45E1E1E0A5CDE00C77A11 /* Headers */,
-				A4E45E1F1E0A5CDE00C77A11 /* Resources */,
+				A4DBDE711E0D1D8600E78A70 /* Sources */,
+				A4DBDE721E0D1D8600E78A70 /* Frameworks */,
+				A4DBDE731E0D1D8600E78A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DBDE781E0D1D8600E78A70 /* PBXTargetDependency */,
+			);
+			name = "Lighty-macOSTests";
+			productName = "Lighty-macOSTests";
+			productReference = A4DBDE751E0D1D8600E78A70 /* Lighty-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DBDE881E0D1D9A00E78A70 /* Lighty-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DBDE9A1E0D1D9A00E78A70 /* Build configuration list for PBXNativeTarget "Lighty-tvOS" */;
+			buildPhases = (
+				A4DBDE841E0D1D9A00E78A70 /* Sources */,
+				A4DBDE851E0D1D9A00E78A70 /* Frameworks */,
+				A4DBDE861E0D1D9A00E78A70 /* Headers */,
+				A4DBDE871E0D1D9A00E78A70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Lighty macOS";
-			productName = "Lighty macOS";
-			productReference = A4E45E211E0A5CDE00C77A11 /* Lighty.framework */;
+			name = "Lighty-tvOS";
+			productName = "Lighty-tvOS";
+			productReference = A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		A4DBDE901E0D1D9A00E78A70 /* Lighty-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DBDE9D1E0D1D9A00E78A70 /* Build configuration list for PBXNativeTarget "Lighty-tvOSTests" */;
+			buildPhases = (
+				A4DBDE8D1E0D1D9A00E78A70 /* Sources */,
+				A4DBDE8E1E0D1D9A00E78A70 /* Frameworks */,
+				A4DBDE8F1E0D1D9A00E78A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DBDE941E0D1D9A00E78A70 /* PBXTargetDependency */,
+			);
+			name = "Lighty-tvOSTests";
+			productName = "Lighty-tvOSTests";
+			productReference = A4DBDE911E0D1D9A00E78A70 /* Lighty-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A415A0BE1E05BD3500C590B8 /* Project object */ = {
+		A4DBDE451E0D1D4200E78A70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Abdullah Selek";
 				TargetAttributes = {
-					A415A0C61E05BD3500C590B8 = {
+					A4DBDE4F1E0D1D6800E78A70 = {
 						CreatedOnToolsVersion = 8.2;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
-					A415A0CF1E05BD3500C590B8 = {
+					A4DBDE581E0D1D6800E78A70 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
-					A4867E751E0B9B5700AEA042 = {
+					A4DBDE6C1E0D1D8500E78A70 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
-					A4E45E201E0A5CDE00C77A11 = {
+					A4DBDE741E0D1D8600E78A70 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					A4DBDE881E0D1D9A00E78A70 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					A4DBDE901E0D1D9A00E78A70 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A415A0C11E05BD3500C590B8 /* Build configuration list for PBXProject "Lighty" */;
+			buildConfigurationList = A4DBDE481E0D1D4200E78A70 /* Build configuration list for PBXProject "Lighty" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A415A0BD1E05BD3500C590B8;
-			productRefGroup = A415A0C81E05BD3500C590B8 /* Products */;
+			mainGroup = A4DBDE441E0D1D4200E78A70;
+			productRefGroup = A4DBDE511E0D1D6800E78A70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A415A0C61E05BD3500C590B8 /* Lighty */,
-				A415A0CF1E05BD3500C590B8 /* LightyTests */,
-				A4E45E201E0A5CDE00C77A11 /* Lighty macOS */,
-				A4867E751E0B9B5700AEA042 /* Lighty tvOS */,
+				A4DBDE4F1E0D1D6800E78A70 /* Lighty-iOS */,
+				A4DBDE581E0D1D6800E78A70 /* Lighty-iOSTests */,
+				A4DBDE6C1E0D1D8500E78A70 /* Lighty-macOS */,
+				A4DBDE741E0D1D8600E78A70 /* Lighty-macOSTests */,
+				A4DBDE881E0D1D9A00E78A70 /* Lighty-tvOS */,
+				A4DBDE901E0D1D9A00E78A70 /* Lighty-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A415A0C51E05BD3500C590B8 /* Resources */ = {
+		A4DBDE4E1E0D1D6800E78A70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A415A0CE1E05BD3500C590B8 /* Resources */ = {
+		A4DBDE571E0D1D6800E78A70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4867E741E0B9B5700AEA042 /* Resources */ = {
+		A4DBDE6B1E0D1D8500E78A70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4E45E1F1E0A5CDE00C77A11 /* Resources */ = {
+		A4DBDE731E0D1D8600E78A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE871E0D1D9A00E78A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE8F1E0D1D9A00E78A70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,136 +418,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1109DE344881A5E6B458A4A0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		11F98E29D390CDC0099ABF89 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightyTests/Pods-LightyTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		305B089A1A29B80BB0F803F5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lighty/Pods-Lighty-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B55EEEF9D260A39586C77DDA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F5813ED8FF9D0F120C5294CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A415A0C21E05BD3500C590B8 /* Sources */ = {
+		A4DBDE4B1E0D1D6800E78A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A415A0E21E05BD5900C590B8 /* LightyLogger.swift in Sources */,
+				A4DBDEA41E0D1DED00E78A70 /* LightyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A415A0CC1E05BD3500C590B8 /* Sources */ = {
+		A4DBDE551E0D1D6800E78A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48085741E0673AE0055F848 /* LightyLoggerTests.swift in Sources */,
+				A4DBDE5F1E0D1D6800E78A70 /* Lighty_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4867E711E0B9B5700AEA042 /* Sources */ = {
+		A4DBDE681E0D1D8500E78A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4867E7E1E0B9B9400AEA042 /* LightyLogger.swift in Sources */,
+				A4DBDEAD1E0D1F2A00E78A70 /* LightyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4E45E1C1E0A5CDE00C77A11 /* Sources */ = {
+		A4DBDE711E0D1D8600E78A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E45E291E0A5D0700C77A11 /* LightyLogger.swift in Sources */,
+				A4DBDE7B1E0D1D8600E78A70 /* Lighty_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE841E0D1D9A00E78A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DBDEAE1E0D1F2A00E78A70 /* LightyLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DBDE8D1E0D1D9A00E78A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DBDE971E0D1D9A00E78A70 /* Lighty_tvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A415A0D31E05BD3500C590B8 /* PBXTargetDependency */ = {
+		A4DBDE5C1E0D1D6800E78A70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A415A0C61E05BD3500C590B8 /* Lighty */;
-			targetProxy = A415A0D21E05BD3500C590B8 /* PBXContainerItemProxy */;
+			target = A4DBDE4F1E0D1D6800E78A70 /* Lighty-iOS */;
+			targetProxy = A4DBDE5B1E0D1D6800E78A70 /* PBXContainerItemProxy */;
+		};
+		A4DBDE781E0D1D8600E78A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DBDE6C1E0D1D8500E78A70 /* Lighty-macOS */;
+			targetProxy = A4DBDE771E0D1D8600E78A70 /* PBXContainerItemProxy */;
+		};
+		A4DBDE941E0D1D9A00E78A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DBDE881E0D1D9A00E78A70 /* Lighty-tvOS */;
+			targetProxy = A4DBDE931E0D1D9A00E78A70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		A415A0D91E05BD3500C590B8 /* Debug */ = {
+		A4DBDE491E0D1D4200E78A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		A4DBDE4A1E0D1D4200E78A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		A4DBDE631E0D1D6800E78A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_CODE_COVERAGE = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -498,15 +532,19 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -519,30 +557,100 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-iOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		A415A0DA1E05BD3500C590B8 /* Release */ = {
+		A4DBDE641E0D1D6800E78A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-iOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A4DBDE661E0D1D6800E78A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_CODE_COVERAGE = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -559,12 +667,65 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Lighty-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4DBDE671E0D1D6800E78A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -572,227 +733,556 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				INFOPLIST_FILE = "Lighty-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DBDE7F1E0D1D8600E78A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-macOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "i386 x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A4DBDE801E0D1D8600E78A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-macOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		A415A0DC1E05BD3500C590B8 /* Debug */ = {
+		A4DBDE821E0D1D8600E78A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4599A77C550012B2C26029EA /* Pods-Lighty.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
-				INFOPLIST_FILE = Lighty/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.Lighty;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Lighty-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A415A0DD1E05BD3500C590B8 /* Release */ = {
+		A4DBDE831E0D1D8600E78A70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFF518F78FE7BDCA5252F2A2 /* Pods-Lighty.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Lighty-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A4DBDE9B1E0D1D9A00E78A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
-				INFOPLIST_FILE = Lighty/Info.plist;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.Lighty;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A415A0DF1E05BD3500C590B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02390EDB15B088BD3A0C5057 /* Pods-LightyTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = LightyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.LightyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		A415A0E01E05BD3500C590B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A02FECE6F89404BD3838E79C /* Pods-LightyTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = LightyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.LightyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		A4867E7B1E0B9B5700AEA042 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Lighty tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-tvOS";
 				PRODUCT_NAME = Lighty;
+				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = arm64;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		A4867E7C1E0B9B5700AEA042 /* Release */ = {
+		A4DBDE9C1E0D1D9A00E78A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Lighty tvOS/Info.plist";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-tvOS";
 				PRODUCT_NAME = Lighty;
+				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		A4E45E261E0A5CDE00C77A11 /* Debug */ = {
+		A4DBDE9E1E0D1D9A00E78A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Lighty macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-macOS";
-				PRODUCT_NAME = Lighty;
-				SKIP_INSTALL = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Lighty-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
-		A4E45E271E0A5CDE00C77A11 /* Release */ = {
+		A4DBDE9F1E0D1D9A00E78A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Lighty macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-macOS";
-				PRODUCT_NAME = Lighty;
-				SKIP_INSTALL = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Lighty-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A415A0C11E05BD3500C590B8 /* Build configuration list for PBXProject "Lighty" */ = {
+		A4DBDE481E0D1D4200E78A70 /* Build configuration list for PBXProject "Lighty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A415A0D91E05BD3500C590B8 /* Debug */,
-				A415A0DA1E05BD3500C590B8 /* Release */,
+				A4DBDE491E0D1D4200E78A70 /* Debug */,
+				A4DBDE4A1E0D1D4200E78A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A415A0DB1E05BD3500C590B8 /* Build configuration list for PBXNativeTarget "Lighty" */ = {
+		A4DBDE621E0D1D6800E78A70 /* Build configuration list for PBXNativeTarget "Lighty-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A415A0DC1E05BD3500C590B8 /* Debug */,
-				A415A0DD1E05BD3500C590B8 /* Release */,
+				A4DBDE631E0D1D6800E78A70 /* Debug */,
+				A4DBDE641E0D1D6800E78A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A415A0DE1E05BD3500C590B8 /* Build configuration list for PBXNativeTarget "LightyTests" */ = {
+		A4DBDE651E0D1D6800E78A70 /* Build configuration list for PBXNativeTarget "Lighty-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A415A0DF1E05BD3500C590B8 /* Debug */,
-				A415A0E01E05BD3500C590B8 /* Release */,
+				A4DBDE661E0D1D6800E78A70 /* Debug */,
+				A4DBDE671E0D1D6800E78A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4867E7D1E0B9B5700AEA042 /* Build configuration list for PBXNativeTarget "Lighty tvOS" */ = {
+		A4DBDE7E1E0D1D8600E78A70 /* Build configuration list for PBXNativeTarget "Lighty-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4867E7B1E0B9B5700AEA042 /* Debug */,
-				A4867E7C1E0B9B5700AEA042 /* Release */,
+				A4DBDE7F1E0D1D8600E78A70 /* Debug */,
+				A4DBDE801E0D1D8600E78A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4E45E281E0A5CDE00C77A11 /* Build configuration list for PBXNativeTarget "Lighty macOS" */ = {
+		A4DBDE811E0D1D8600E78A70 /* Build configuration list for PBXNativeTarget "Lighty-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4E45E261E0A5CDE00C77A11 /* Debug */,
-				A4E45E271E0A5CDE00C77A11 /* Release */,
+				A4DBDE821E0D1D8600E78A70 /* Debug */,
+				A4DBDE831E0D1D8600E78A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DBDE9A1E0D1D9A00E78A70 /* Build configuration list for PBXNativeTarget "Lighty-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DBDE9B1E0D1D9A00E78A70 /* Debug */,
+				A4DBDE9C1E0D1D9A00E78A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DBDE9D1E0D1D9A00E78A70 /* Build configuration list for PBXNativeTarget "Lighty-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DBDE9E1E0D1D9A00E78A70 /* Debug */,
+				A4DBDE9F1E0D1D9A00E78A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A415A0BE1E05BD3500C590B8 /* Project object */;
+	rootObject = A4DBDE451E0D1D4200E78A70 /* Project object */;
 }
