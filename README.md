@@ -13,7 +13,7 @@ Easy to use and lightweight logger in Swift.
 
 ## Requirements
 
-iOS 9.0+ / macOS 10.9+
+iOS 9.0+ / macOS 10.9+ / tvOS 9.0+
 
 ## CocoaPods
 
