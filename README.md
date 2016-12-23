@@ -29,7 +29,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>0.2'
+	pod 'Lighty', '~>0.3'
 end
 ```
 
@@ -52,7 +52,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 0.2
+github "abdullahselek/Lighty" ~> 0.3
 ```
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
