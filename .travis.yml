@@ -17,6 +17,6 @@ install:
 - bundle install --without=documentation --path ../travis_bundle_dir
 
 script: 
-- xcodebuild -workspace Lighty.xcworkspace -scheme Lighty -destination "platform=iOS Simulator,name=iPhone 6s,OS=10.0" clean test | xcpretty
+- xcodebuild -workspace Lighty.xcworkspace -scheme Lighty-iOS -destination "platform=iOS Simulator,name=iPhone 6s,OS=10.0" clean test | xcpretty
 
 after_success: slather
