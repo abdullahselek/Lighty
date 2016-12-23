@@ -1117,7 +1117,6 @@
 				MODULEMAP_FILE = "Target Support Files/Lighty/Lighty.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Lighty;
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx tvos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1515,7 +1514,6 @@
 				MODULEMAP_FILE = "Target Support Files/Lighty/Lighty.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Lighty;
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx tvos";
 				SWIFT_VERSION = 3.0;
