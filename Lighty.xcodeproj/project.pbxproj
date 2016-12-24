@@ -19,6 +19,8 @@
 		A4DBDEAC1E0D1F1F00E78A70 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4DBDEAD1E0D1F2A00E78A70 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */; };
 		A4DBDEAE1E0D1F2A00E78A70 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */; };
+		A4EA4BE21E0E53FA00B216DF /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EA4BE31E0E540200B216DF /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		A4DBDEA51E0D1E9900E78A70 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		A4DBDEA61E0D1E9900E78A70 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "Sources/Info-macOS.plist"; sourceTree = "<group>"; };
 		A4DBDEA71E0D1E9900E78A70 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = "<group>"; };
+		A4EA4BDA1E0E53BC00B216DF /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EA4BE41E0E543100B216DF /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "Sources/Info-watchOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4EA4BD61E0E53BC00B216DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,6 +145,7 @@
 				A4DBDE751E0D1D8600E78A70 /* Lighty-macOSTests.xctest */,
 				A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */,
 				A4DBDE911E0D1D9A00E78A70 /* Lighty-tvOSTests.xctest */,
+				A4EA4BDA1E0E53BC00B216DF /* Lighty.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +183,7 @@
 				A4DBDEA51E0D1E9900E78A70 /* Info-iOS.plist */,
 				A4DBDEA61E0D1E9900E78A70 /* Info-macOS.plist */,
 				A4DBDEA71E0D1E9900E78A70 /* Info-tvOS.plist */,
+				A4EA4BE41E0E543100B216DF /* Info-watchOS.plist */,
 				A4DBDEA11E0D1DED00E78A70 /* Lighty.h */,
 				A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */,
 			);
@@ -201,6 +214,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4DBDEAC1E0D1F1F00E78A70 /* Lighty.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EA4BD71E0E53BC00B216DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EA4BE21E0E53FA00B216DF /* Lighty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +336,24 @@
 			productReference = A4DBDE911E0D1D9A00E78A70 /* Lighty-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A4EA4BD91E0E53BC00B216DF /* Lighty watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EA4BE11E0E53BC00B216DF /* Build configuration list for PBXNativeTarget "Lighty watchOS" */;
+			buildPhases = (
+				A4EA4BD51E0E53BC00B216DF /* Sources */,
+				A4EA4BD61E0E53BC00B216DF /* Frameworks */,
+				A4EA4BD71E0E53BC00B216DF /* Headers */,
+				A4EA4BD81E0E53BC00B216DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lighty watchOS";
+			productName = "Lighty watchOS";
+			productReference = A4EA4BDA1E0E53BC00B216DF /* Lighty.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -349,6 +388,10 @@
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
+					A4EA4BD91E0E53BC00B216DF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = A4DBDE481E0D1D4200E78A70 /* Build configuration list for PBXProject "Lighty" */;
@@ -369,6 +412,7 @@
 				A4DBDE741E0D1D8600E78A70 /* Lighty-macOSTests */,
 				A4DBDE881E0D1D9A00E78A70 /* Lighty-tvOS */,
 				A4DBDE901E0D1D9A00E78A70 /* Lighty-tvOSTests */,
+				A4EA4BD91E0E53BC00B216DF /* Lighty watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -410,6 +454,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A4DBDE8F1E0D1D9A00E78A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EA4BD81E0E53BC00B216DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -464,6 +515,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4DBDE971E0D1D9A00E78A70 /* Lighty_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EA4BD51E0E53BC00B216DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EA4BE31E0E540200B216DF /* LightyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1216,6 +1275,133 @@
 			};
 			name = Release;
 		};
+		A4EA4BDF1E0E53BC00B216DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-watchOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = armv7k;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A4EA4BE01E0E53BC00B216DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-watchOS";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7k;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1278,6 +1464,15 @@
 			buildConfigurations = (
 				A4DBDE9E1E0D1D9A00E78A70 /* Debug */,
 				A4DBDE9F1E0D1D9A00E78A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EA4BE11E0E53BC00B216DF /* Build configuration list for PBXNativeTarget "Lighty watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EA4BDF1E0E53BC00B216DF /* Debug */,
+				A4EA4BE01E0E53BC00B216DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
