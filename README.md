@@ -13,7 +13,7 @@ Easy to use and lightweight logger in Swift.
 
 ## Requirements
 
-iOS 9.0+ / macOS 10.9+ / tvOS 9.0+
+iOS 9.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+
 
 ## CocoaPods
 
@@ -29,7 +29,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>0.3'
+	pod 'Lighty', '~>0.4'
 end
 ```
 
@@ -52,7 +52,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 0.3
+github "abdullahselek/Lighty" ~> 0.4
 ```
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
