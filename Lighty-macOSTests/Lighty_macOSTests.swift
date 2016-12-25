@@ -3,34 +3,58 @@
 //  Lighty-macOSTests
 //
 //  Created by Abdullah Selek on 23/12/2016.
-//
+// 
 //
 
 import XCTest
 @testable import Lighty
 
 class Lighty_macOSTests: XCTestCase {
-    
+
+    var logger: LightyLogger!
+
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        logger = LightyLogger.sharedInstance
     }
     
+    func testGetAccessoryWithType() {
+        XCTAssertEqual(logger.getAccessoryWithType(messageType: .verbose), "💜")
+        XCTAssertEqual(logger.getAccessoryWithType(messageType: .debug), "💙")
+        XCTAssertEqual(logger.getAccessoryWithType(messageType: .info), "💚")
+        XCTAssertEqual(logger.getAccessoryWithType(messageType: .warn), "💛")
+        XCTAssertEqual(logger.getAccessoryWithType(messageType: .error), "❤️")
+    }
+
+    func testTrackMessage() {
+        let path = logger.track(message: "test")
+        XCTAssertNotNil(path)
+    }
+
+    func testLog() {
+        let mocklogger = MockLightyLogger()
+        mocklogger.log(type: .error, message: "test")
+        XCTAssertTrue(mocklogger.logged)
+    }
+
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        logger = nil
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+}
+
+class MockLightyLogger: LightyLogger {
+
+    var logged = false
+
+    override public func log(type: LightyMessageType,
+                             message: String,
+                             file: String = #file,
+                             function: String = #function,
+                             line: Int = #line) {
+        super.log(type: type, message: message)
+        logged = true
     }
     
 }
