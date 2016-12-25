@@ -57,6 +57,21 @@ github "abdullahselek/Lighty" ~> 0.4
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
 
+## Swift Package Manager
+
+```
+import PackageDescription
+
+let package = Package(
+    name: "Your project name",
+    dependencies: [
+        .Package(url: "https://github.com/abdullahselek/Lighty.git", majorVersion: 0, minor: 4)
+    ]
+)
+```
+
+Run ```swift package fetch```
+
 ## Example Usage
 ```
 import Lighty
