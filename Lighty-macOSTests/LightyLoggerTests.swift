@@ -1,15 +1,16 @@
 //
-//  Lighty_macOSTests.swift
-//  Lighty-macOSTests
+//  LightyLoggerTests.swift
+//  LightyLoggerTests
 //
 //  Created by Abdullah Selek on 23/12/2016.
 // 
 //
 
 import XCTest
+
 @testable import Lighty
 
-class Lighty_macOSTests: XCTestCase {
+class LightyLoggerTests: XCTestCase {
 
     var logger: LightyLogger!
 

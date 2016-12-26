@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A4DBDE5A1E0D1D6800E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE501E0D1D6800E78A70 /* Lighty.framework */; };
-		A4DBDE5F1E0D1D6800E78A70 /* Lighty_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE5E1E0D1D6800E78A70 /* Lighty_iOSTests.swift */; };
+		A4DBDE5F1E0D1D6800E78A70 /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE5E1E0D1D6800E78A70 /* LightyLoggerTests.swift */; };
 		A4DBDE761E0D1D8600E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */; };
-		A4DBDE7B1E0D1D8600E78A70 /* Lighty_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE7A1E0D1D8600E78A70 /* Lighty_macOSTests.swift */; };
+		A4DBDE7B1E0D1D8600E78A70 /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE7A1E0D1D8600E78A70 /* LightyLoggerTests.swift */; };
 		A4DBDE921E0D1D9A00E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */; };
 		A4DBDE971E0D1D9A00E78A70 /* Lighty_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE961E0D1D9A00E78A70 /* Lighty_tvOSTests.swift */; };
 		A4DBDEA31E0D1DED00E78A70 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,11 +50,11 @@
 /* Begin PBXFileReference section */
 		A4DBDE501E0D1D6800E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DBDE591E0D1D6800E78A70 /* Lighty-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4DBDE5E1E0D1D6800E78A70 /* Lighty_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighty_iOSTests.swift; sourceTree = "<group>"; };
+		A4DBDE5E1E0D1D6800E78A70 /* LightyLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightyLoggerTests.swift; sourceTree = "<group>"; };
 		A4DBDE601E0D1D6800E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DBDE751E0D1D8600E78A70 /* Lighty-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4DBDE7A1E0D1D8600E78A70 /* Lighty_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighty_macOSTests.swift; sourceTree = "<group>"; };
+		A4DBDE7A1E0D1D8600E78A70 /* LightyLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightyLoggerTests.swift; sourceTree = "<group>"; };
 		A4DBDE7C1E0D1D8600E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DBDE911E0D1D9A00E78A70 /* Lighty-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,7 +153,7 @@
 		A4DBDE5D1E0D1D6800E78A70 /* Lighty-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4DBDE5E1E0D1D6800E78A70 /* Lighty_iOSTests.swift */,
+				A4DBDE5E1E0D1D6800E78A70 /* LightyLoggerTests.swift */,
 				A4DBDE601E0D1D6800E78A70 /* Info.plist */,
 			);
 			path = "Lighty-iOSTests";
@@ -162,7 +162,7 @@
 		A4DBDE791E0D1D8600E78A70 /* Lighty-macOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4DBDE7A1E0D1D8600E78A70 /* Lighty_macOSTests.swift */,
+				A4DBDE7A1E0D1D8600E78A70 /* LightyLoggerTests.swift */,
 				A4DBDE7C1E0D1D8600E78A70 /* Info.plist */,
 			);
 			path = "Lighty-macOSTests";
@@ -482,7 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DBDE5F1E0D1D6800E78A70 /* Lighty_iOSTests.swift in Sources */,
+				A4DBDE5F1E0D1D6800E78A70 /* LightyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +498,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DBDE7B1E0D1D8600E78A70 /* Lighty_macOSTests.swift in Sources */,
+				A4DBDE7B1E0D1D8600E78A70 /* LightyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
