@@ -1,0 +1,6 @@
+framework module Lighty {
+  umbrella header "Lighty-umbrella.h"
+
+  export *
+  module * { export * }
+}

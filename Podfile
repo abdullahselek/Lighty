@@ -4,16 +4,11 @@ def product_pods
 	pod 'Lighty', :path => '.'
 end
 
-def testing_pods
-    pod 'Quick'
-    pod 'Nimble'
-end
-
 workspace 'Lighty.xcworkspace'
-project 'Lighty.xcodeproj'
+project 'Sample/iOS Sample/iOS Sample.xcodeproj'
 
-target 'Lighty-iOSTests' do
+target 'iOS Sample' do
 	use_frameworks!
     inherit! :search_paths
-    testing_pods
+    product_pods
 end
