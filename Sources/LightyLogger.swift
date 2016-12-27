@@ -34,6 +34,9 @@ import Foundation
     import UIKit
 #endif
 
+/**
+  Message type for logging
+ */
 public enum LightyMessageType {
     case verbose
     case debug
@@ -51,10 +54,24 @@ private struct Emoji {
     static let Error = "❤️"
 }
 
+/**
+  Main class for log mechanism
+ */
 public class LightyLogger {
 
+    /**
+      Singleton instance of LightyLogger
+     */
     public static let sharedInstance: LightyLogger = LightyLogger()
+
+    /**
+      DateFormatter used in logs to format log date and time
+     */
     public var dateFormatter: DateFormatter!
+
+    /**
+      String used to separate log message
+     */
     public var separator = " | "
 
     internal init() {
@@ -83,6 +100,14 @@ public class LightyLogger {
         }
     }
 
+    /**
+      Main function print logs
+      - parameter type: LightyMessageType
+      - parameter message: Message string to log
+      - parameter file: String internal parameter to detect class file which uses log function
+      - parameter function: String internal parameter to detect function which uses log function
+      - parameter line: Int string internal parameter to detect line number which uses log function
+     */
     public func log(type: LightyMessageType,
                     message: String,
                     file: String = #file,
