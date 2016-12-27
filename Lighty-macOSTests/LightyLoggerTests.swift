@@ -27,11 +27,6 @@ class LightyLoggerTests: XCTestCase {
         XCTAssertEqual(logger.getAccessoryWithType(messageType: .error), "❤️")
     }
 
-    func testTrackMessage() {
-        let path = logger.track(message: "test")
-        XCTAssertNotNil(path)
-    }
-
     func testLog() {
         let mocklogger = MockLightyLogger()
         mocklogger.log(type: .error, message: "test")
