@@ -29,7 +29,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>0.4'
+	pod 'Lighty', '~>1.0.0'
 end
 ```
 
@@ -52,7 +52,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 0.4
+github "abdullahselek/Lighty" ~> 1.0.0
 ```
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
@@ -65,7 +65,7 @@ import PackageDescription
 let package = Package(
     name: "Your project name",
     dependencies: [
-        .Package(url: "https://github.com/abdullahselek/Lighty.git", majorVersion: 0, minor: 4)
+        .Package(url: "https://github.com/abdullahselek/Lighty.git", majorVersion: 1, minor: 0)
     ]
 )
 ```
@@ -86,4 +86,16 @@ logger.log(type: .info, message: "Info")
 logger.log(type: .warn, message: "Warn")
 
 LightyLogger.sharedInstance.log(type: .error, message: "Error for test :)")
+```
+
+You can set your own date formatter and separator
+```
+let dateFormatter = DateFormatter()
+dateFormatter.dateStyle = .long
+dateFormatter.timeStyle = .long
+logger.dateFormatter = dateFormatter
+```
+
+```
+logger.separator = " + "
 ```
