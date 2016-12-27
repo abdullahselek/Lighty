@@ -119,7 +119,7 @@ public class LightyLogger {
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         let emoji = getAccessoryWithType(messageType: type)
-        print(emoji + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
+        print(emoji + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
     }
     
 }
