@@ -22,6 +22,16 @@ class ViewController: UIViewController {
         logger.log(type: .warn, message: "Warn")
 
         LightyLogger.sharedInstance.log(type: .error, message: "Error for test :)")
+
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .long
+        dateFormatter.timeStyle = .long
+
+        logger.dateFormatter = dateFormatter
+        logger.log(type: .verbose, message: "Log with new formatter")
+
+        logger.separator = " + "
+        logger.log(type: .verbose, message: "Log with new separator")
     }
 
     override func didReceiveMemoryWarning() {
