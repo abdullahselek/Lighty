@@ -55,6 +55,7 @@ public class LightyLogger {
 
     public static let sharedInstance: LightyLogger = LightyLogger()
     public var dateFormatter: DateFormatter!
+    public var separator = " | "
 
     internal init() {
         dateFormatter = createDateFormatter()
@@ -93,7 +94,7 @@ public class LightyLogger {
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         let emoji = getAccessoryWithType(messageType: type)
-        print(emoji + dateFormatter.string(from: Date()) + " / " + trackedString + " / " +  message + " " + emoji)
+        print(emoji + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
     }
     
 }

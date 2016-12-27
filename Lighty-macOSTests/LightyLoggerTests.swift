@@ -22,6 +22,7 @@ class LightyLoggerTests: XCTestCase {
     func testInit() {
         let logger = LightyLogger.sharedInstance
         XCTAssertNotNil(logger.dateFormatter)
+        XCTAssertEqual(logger.separator, " | ")
     }
 
     func testCreateDateFormatter() {
