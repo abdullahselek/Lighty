@@ -18,7 +18,19 @@ class LightyLoggerTests: XCTestCase {
         super.setUp()
         logger = LightyLogger.sharedInstance
     }
-    
+
+    func testInit() {
+        let logger = LightyLogger.sharedInstance
+        XCTAssertNotNil(logger.dateFormatter)
+    }
+
+    func testCreateDateFormatter() {
+        let dateFormatter = logger.createDateFormatter()
+        XCTAssertNotNil(dateFormatter)
+        XCTAssertEqual(dateFormatter.dateStyle, DateFormatter.Style.short)
+        XCTAssertEqual(dateFormatter.timeStyle, DateFormatter.Style.medium)
+    }
+
     func testGetAccessoryWithType() {
         XCTAssertEqual(logger.getAccessoryWithType(messageType: .verbose), "💜")
         XCTAssertEqual(logger.getAccessoryWithType(messageType: .debug), "💙")

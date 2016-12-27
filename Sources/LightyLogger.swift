@@ -54,6 +54,18 @@ private struct Emoji {
 public class LightyLogger {
 
     public static let sharedInstance: LightyLogger = LightyLogger()
+    public var dateFormatter: DateFormatter!
+
+    internal init() {
+        dateFormatter = createDateFormatter()
+    }
+
+    internal func createDateFormatter() -> DateFormatter {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .short
+        dateFormatter.timeStyle = .medium
+        return dateFormatter
+    }
 
     internal func getAccessoryWithType(messageType: LightyMessageType) -> String {
         switch messageType {
@@ -81,7 +93,7 @@ public class LightyLogger {
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         let emoji = getAccessoryWithType(messageType: type)
-        print(emoji + " " + trackedString + " / " +  message + " " + emoji)
+        print(emoji + dateFormatter.string(from: Date()) + " / " + trackedString + " / " +  message + " " + emoji)
     }
     
 }
