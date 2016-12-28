@@ -46,6 +46,12 @@ class LightyLoggerTests: XCTestCase {
         XCTAssertTrue(mocklogger.logged)
     }
 
+    func testDLog() {
+        let mockLogger = MockLightyLogger()
+        mockLogger.dlog(type: .debug, message: "debug message")
+        XCTAssertTrue(mockLogger.logged)
+    }
+
     override func tearDown() {
         logger = nil
         super.tearDown()
@@ -63,6 +69,15 @@ class MockLightyLogger: LightyLogger {
                              function: String = #function,
                              line: Int = #line) {
         super.log(type: type, message: message)
+        logged = true
+    }
+
+    override public func dlog(type: LightyMessageType,
+                              message: String,
+                              file: String = #file,
+                              function: String = #function,
+                              line: Int = #line) {
+        super.dlog(type: type, message: message)
         logged = true
     }
     

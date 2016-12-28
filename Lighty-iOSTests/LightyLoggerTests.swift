@@ -77,7 +77,7 @@ class MockLightyLogger: LightyLogger {
                              file: String = #file,
                              function: String = #function,
                              line: Int = #line) {
-        super.log(type: type, message: message)
+        super.dlog(type: type, message: message)
         logged = true
     }
     
