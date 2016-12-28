@@ -29,7 +29,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>1.0.0'
+	pod 'Lighty', '~>1.1.0'
 end
 ```
 
@@ -52,7 +52,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 1.0.0
+github "abdullahselek/Lighty" ~> 1.1.0
 ```
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
@@ -65,7 +65,7 @@ import PackageDescription
 let package = Package(
     name: "Your project name",
     dependencies: [
-        .Package(url: "https://github.com/abdullahselek/Lighty.git", majorVersion: 1, minor: 0)
+        .Package(url: "https://github.com/abdullahselek/Lighty.git", majorVersion: 1, minor: 1)
     ]
 )
 ```
@@ -98,4 +98,9 @@ logger.dateFormatter = dateFormatter
 
 ```
 logger.separator = " + "
+```
+
+Logs for just debug mode
+```
+logger.dlog(type: .warn, message: "Log for just debug mode")
 ```
