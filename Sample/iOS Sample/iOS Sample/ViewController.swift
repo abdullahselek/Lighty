@@ -32,6 +32,8 @@ class ViewController: UIViewController {
 
         logger.separator = " + "
         logger.log(type: .verbose, message: "Log with new separator")
+
+        logger.dlog(type: .warn, message: "Log for just debug mode")
     }
 
     override func didReceiveMemoryWarning() {
