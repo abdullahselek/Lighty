@@ -113,13 +113,30 @@ public class LightyLogger {
                     file: String = #file,
                     function: String = #function,
                     line: Int = #line) {
-
         let fileExtension = file.nsstring.lastPathComponent.nsstring.pathExtension
         let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         let emoji = getAccessoryWithType(messageType: type)
         print(emoji + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
+    }
+
+    /**
+     Function for print debug logs
+     - parameter type: LightyMessageType
+     - parameter message: Message string to log
+     - parameter file: String internal parameter to detect class file which uses log function
+     - parameter function: String internal parameter to detect function which uses log function
+     - parameter line: Int string internal parameter to detect line number which uses log function
+     */
+    public func dlog(type: LightyMessageType,
+                    message: String,
+                    file: String = #file,
+                    function: String = #function,
+                    line: Int = #line) {
+        #if DEBUG
+            log(type: type, message: message)
+        #endif
     }
     
 }
