@@ -28,30 +28,16 @@
 //  SOFTWARE.
 
 import Foundation
-#if os(OSX)
-    import Cocoa
-#elseif os(iOS) || os(tvOS)
-    import UIKit
-#endif
 
 /**
   Message type for logging
  */
-public enum LightyMessageType {
-    case verbose
-    case debug
-    case info
-    case warn
-    case error
-}
-
-private struct Emoji {
-    static let Empty = ""
-    static let Verbose = "💜"
-    static let Debug = "💙"
-    static let Info = "💚"
-    static let Warn = "💛"
-    static let Error = "❤️"
+public enum LightyMessageType: String {
+    case verbose = "💜"
+    case debug = "💙"
+    case info = "💚"
+    case warn = "💛"
+    case error = "❤️"
 }
 
 /**
@@ -85,21 +71,6 @@ public class LightyLogger {
         return dateFormatter
     }
 
-    internal func getAccessoryWithType(messageType: LightyMessageType) -> String {
-        switch messageType {
-        case .verbose:
-            return Emoji.Verbose
-        case .debug:
-            return Emoji.Debug
-        case .info:
-            return Emoji.Info
-        case .warn:
-            return Emoji.Warn
-        case .error:
-            return Emoji.Error
-        }
-    }
-
     /**
       Main function print logs
       - parameter type: LightyMessageType
@@ -113,12 +84,13 @@ public class LightyLogger {
                     file: String = #file,
                     function: String = #function,
                     line: Int = #line) {
-        let fileExtension = file.nsstring.lastPathComponent.nsstring.pathExtension
-        let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
+        let fileUrl = URL(fileURLWithPath: file)
+        let fileExtension = fileUrl.pathExtension
+        let fileName = fileUrl.deletingPathExtension().lastPathComponent
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
-        let emoji = getAccessoryWithType(messageType: type)
-        print(emoji + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
+        
+        print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + type.rawValue)
     }
 
     /**
@@ -135,19 +107,14 @@ public class LightyLogger {
                     function: String = #function,
                     line: Int = #line) {
         #if DEBUG
-            let fileExtension = file.nsstring.lastPathComponent.nsstring.pathExtension
-            let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
+            let fileUrl = URL(fileURLWithPath: file)
+            let fileExtension = fileUrl.pathExtension
+            let fileName = fileUrl.deletingPathExtension().lastPathComponent
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
-            let emoji = getAccessoryWithType(messageType: type)
-            print(emoji + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
+            
+            print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + type.rawValue)
         #endif
     }
     
-}
-
-private extension String {
-
-    var nsstring: NSString { return self as NSString }
-
 }
