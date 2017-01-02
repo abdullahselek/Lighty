@@ -111,12 +111,7 @@ public class LightyLogger {
                     function: String = #function,
                     line: Int = #line) {
         #if DEBUG
-            let fileExtension = file.nsstring.lastPathComponent.nsstring.pathExtension
-            let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
-
-            let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
-            
-            print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + type.rawValue)
+            log(type: type, message: message)
         #endif
     }
     
