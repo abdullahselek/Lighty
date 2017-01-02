@@ -89,8 +89,9 @@ public class LightyLogger {
                     file: String = #file,
                     function: String = #function,
                     line: Int = #line) {
-        let fileExtension = file.nsstring.lastPathComponent.nsstring.pathExtension
-        let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
+        let fileUrl = URL(fileURLWithPath: file)
+        let fileExtension = fileUrl.pathExtension
+        let fileName = fileUrl.deletingPathExtension().lastPathComponent
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         
@@ -115,10 +116,4 @@ public class LightyLogger {
         #endif
     }
     
-}
-
-private extension String {
-
-    var nsstring: NSString { return self as NSString }
-
 }
