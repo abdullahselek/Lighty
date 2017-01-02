@@ -28,11 +28,6 @@
 //  SOFTWARE.
 
 import Foundation
-#if os(OSX)
-    import Cocoa
-#elseif os(iOS) || os(tvOS)
-    import UIKit
-#endif
 
 /**
   Message type for logging
