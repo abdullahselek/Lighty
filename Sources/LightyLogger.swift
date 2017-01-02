@@ -37,21 +37,12 @@ import Foundation
 /**
   Message type for logging
  */
-public enum LightyMessageType {
-    case verbose
-    case debug
-    case info
-    case warn
-    case error
-}
-
-private struct Emoji {
-    static let Empty = ""
-    static let Verbose = "💜"
-    static let Debug = "💙"
-    static let Info = "💚"
-    static let Warn = "💛"
-    static let Error = "❤️"
+public enum LightyMessageType: String {
+    case verbose = "💜"
+    case debug = "💙"
+    case info = "💚"
+    case warn = "💛"
+    case error = "❤️"
 }
 
 /**
@@ -85,21 +76,6 @@ public class LightyLogger {
         return dateFormatter
     }
 
-    internal func getAccessoryWithType(messageType: LightyMessageType) -> String {
-        switch messageType {
-        case .verbose:
-            return Emoji.Verbose
-        case .debug:
-            return Emoji.Debug
-        case .info:
-            return Emoji.Info
-        case .warn:
-            return Emoji.Warn
-        case .error:
-            return Emoji.Error
-        }
-    }
-
     /**
       Main function print logs
       - parameter type: LightyMessageType
@@ -117,8 +93,8 @@ public class LightyLogger {
         let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
-        let emoji = getAccessoryWithType(messageType: type)
-        print(emoji + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
+        
+        print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + type.rawValue)
     }
 
     /**
@@ -139,8 +115,8 @@ public class LightyLogger {
             let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
-            let emoji = getAccessoryWithType(messageType: type)
-            print(emoji + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + emoji)
+            
+            print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + type.rawValue)
         #endif
     }
     

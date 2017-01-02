@@ -32,14 +32,6 @@ class LightyLoggerTests: XCTestCase {
         XCTAssertEqual(dateFormatter.timeStyle, DateFormatter.Style.medium)
     }
 
-    func testGetAccessoryWithType() {
-        XCTAssertEqual(logger.getAccessoryWithType(messageType: .verbose), "💜")
-        XCTAssertEqual(logger.getAccessoryWithType(messageType: .debug), "💙")
-        XCTAssertEqual(logger.getAccessoryWithType(messageType: .info), "💚")
-        XCTAssertEqual(logger.getAccessoryWithType(messageType: .warn), "💛")
-        XCTAssertEqual(logger.getAccessoryWithType(messageType: .error), "❤️")
-    }
-
     func testLog() {
         let mocklogger = MockLightyLogger()
         mocklogger.log(type: .error, message: "test")
