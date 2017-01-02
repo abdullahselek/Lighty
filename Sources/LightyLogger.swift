@@ -107,8 +107,9 @@ public class LightyLogger {
                     function: String = #function,
                     line: Int = #line) {
         #if DEBUG
-            let fileExtension = file.nsstring.lastPathComponent.nsstring.pathExtension
-            let fileName = file.nsstring.lastPathComponent.nsstring.deletingPathExtension
+            let fileUrl = URL(fileURLWithPath: file)
+            let fileExtension = fileUrl.pathExtension
+            let fileName = fileUrl.deletingPathExtension().lastPathComponent
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
             
