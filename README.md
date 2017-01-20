@@ -1,6 +1,7 @@
 ![Build Status](https://travis-ci.org/abdullahselek/Lighty.svg?branch=master)
 ![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Lighty.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager Compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Coverage Status](https://coveralls.io/repos/github/abdullahselek/Lighty/badge.svg?branch=master)](https://coveralls.io/github/abdullahselek/Lighty?branch=master)
 ![Platform](https://img.shields.io/badge/platform-iOS | macOS | tvOS | watchOS-lightgrey.svg)
 
