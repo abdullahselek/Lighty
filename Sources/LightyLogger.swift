@@ -33,11 +33,11 @@ import Foundation
   Message type for logging
  */
 public enum LightyMessageType: String {
-    case verbose = "💜"
-    case debug = "💙"
-    case info = "💚"
-    case warn = "💛"
-    case error = "❤️"
+    case verbose = "💜 VERBOSE"
+    case debug = "💙 DEBUG"
+    case info = "💚 INFO"
+    case warn = "💛 WARN"
+    case error = "❤️ ERROR"
 }
 
 /**
@@ -90,7 +90,7 @@ public class LightyLogger {
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         
-        print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + type.rawValue)
+        print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message)
     }
 
     /**
@@ -113,7 +113,7 @@ public class LightyLogger {
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
             
-            print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message + " " + type.rawValue)
+            print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message)
         #endif
     }
     
