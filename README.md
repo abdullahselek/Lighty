@@ -3,7 +3,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager Compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Coverage Status](https://coveralls.io/repos/github/abdullahselek/Lighty/badge.svg?branch=master)](https://coveralls.io/github/abdullahselek/Lighty?branch=master)
-![Platform](https://img.shields.io/badge/platform-iOS | macOS | tvOS | watchOS-lightgrey.svg)
+![Platform](https://img.shields.io/badge/platform-iOS | macOS | tvOS | watchOS | Linux-lightgrey.svg)
 
 # Lighty
 Easy to use and lightweight logger in Swift.
@@ -14,7 +14,7 @@ Easy to use and lightweight logger in Swift.
 
 ## Requirements
 
-iOS 9.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+
+iOS 9.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+ / Linux
 
 ## CocoaPods
 
@@ -30,7 +30,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>1.1.0'
+	pod 'Lighty', '~>1.1.2'
 end
 ```
 
@@ -53,7 +53,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 1.1.0
+github "abdullahselek/Lighty" ~> 1.1.2
 ```
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
