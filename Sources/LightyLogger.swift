@@ -28,6 +28,9 @@
 //  SOFTWARE.
 
 import Foundation
+#if os(Linux)
+    import Glibc
+#endif
 
 /**
   Message type for logging
