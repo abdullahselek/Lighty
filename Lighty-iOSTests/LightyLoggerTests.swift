@@ -44,6 +44,12 @@ class LightyLoggerTests: XCTestCase {
         XCTAssertTrue(mockLogger.logged)
     }
 
+    func testGetFormattedDate_whenDateDisabled() {
+        let logger = LightyLogger.sharedInstance
+        logger.enableDate = false
+        XCTAssertEqual(logger.getFormattedDate(), "")
+    }
+
     override func tearDown() {
         logger = nil
         super.tearDown()

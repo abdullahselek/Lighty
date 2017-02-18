@@ -63,6 +63,11 @@ public class LightyLogger {
      */
     public var separator = " | "
 
+    /**
+      Adds formatted date for logs
+     */
+    public var enableDate = true
+
     internal init() {
         dateFormatter = createDateFormatter()
     }
@@ -72,6 +77,13 @@ public class LightyLogger {
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .medium
         return dateFormatter
+    }
+
+    internal func getFormattedDate() -> String {
+        if enableDate {
+            return dateFormatter.string(from: Date())
+        }
+        return ""
     }
 
     /**
@@ -93,7 +105,7 @@ public class LightyLogger {
 
         let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
         
-        print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message)
+        print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message)
     }
 
     /**
@@ -116,7 +128,7 @@ public class LightyLogger {
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
             
-            print(type.rawValue + " " + dateFormatter.string(from: Date()) + separator + trackedString + separator +  message)
+            print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message)
         #endif
     }
     
