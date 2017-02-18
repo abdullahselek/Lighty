@@ -64,7 +64,7 @@ public class LightyLogger {
     public var separator = " | "
 
     /**
-      Adds formatted date for logs
+      Enable/disable formatted date for logs
      */
     public var enableDate = true
 
