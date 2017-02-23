@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/platform-iOS | macOS | tvOS | watchOS | Linux-lightgrey.svg)
 
 # Lighty
-Easy to use and lightweight logger in Swift.
+Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Swift.
 
 ## Screenshots
 ![default_theme](https://github.com/abdullahselek/Lighty/blob/master/Screenshots/default_theme.png)
