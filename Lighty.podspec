@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
     s.name                  = 'Lighty'
-    s.version               = '1.1.2'
-    s.summary               = 'Easy to use and lightweight logger in Swift'
+    s.version               = '1.1.3'
+    s.summary               = 'Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Swift'
     s.homepage              = 'https://github.com/abdullahselek/Lighty'
     s.license               = {
         :type => 'MIT',
