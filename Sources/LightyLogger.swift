@@ -68,6 +68,11 @@ public class LightyLogger {
      */
     public var enableDate = true
 
+    /**
+      Enable/disable logging
+     */
+    public var enable = true
+
     internal init() {
         dateFormatter = createDateFormatter()
     }
@@ -99,13 +104,15 @@ public class LightyLogger {
                     file: String = #file,
                     function: String = #function,
                     line: Int = #line) {
-        let fileUrl = URL(fileURLWithPath: file)
-        let fileExtension = fileUrl.pathExtension
-        let fileName = fileUrl.deletingPathExtension().lastPathComponent
+        if enable {
+            let fileUrl = URL(fileURLWithPath: file)
+            let fileExtension = fileUrl.pathExtension
+            let fileName = fileUrl.deletingPathExtension().lastPathComponent
 
-        let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
-        
-        print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message)
+            let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
+
+            print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message)
+        }
     }
 
     /**
@@ -121,7 +128,7 @@ public class LightyLogger {
                     file: String = #file,
                     function: String = #function,
                     line: Int = #line) {
-        #if DEBUG
+        #if DEBUG && enable
             let fileUrl = URL(fileURLWithPath: file)
             let fileExtension = fileUrl.pathExtension
             let fileName = fileUrl.deletingPathExtension().lastPathComponent

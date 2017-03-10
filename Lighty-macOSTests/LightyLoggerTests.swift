@@ -50,6 +50,20 @@ class LightyLoggerTests: XCTestCase {
         XCTAssertEqual(logger.getFormattedDate(), "")
     }
 
+    func testLog_whenLoggingDisabled() {
+        let mockLogger = MockLightyLogger()
+        mockLogger.enable = false
+        mockLogger.log(type: .error, message: "test")
+        XCTAssertFalse(mockLogger.logged)
+    }
+
+    func testDLog_whenLoggingDisabled() {
+        let mockLogger = MockLightyLogger()
+        mockLogger.enable = false
+        mockLogger.dlog(type: .error, message: "test")
+        XCTAssertFalse(mockLogger.logged)
+    }
+
     override func tearDown() {
         logger = nil
         super.tearDown()
@@ -67,7 +81,7 @@ class MockLightyLogger: LightyLogger {
                              function: String = #function,
                              line: Int = #line) {
         super.log(type: type, message: message)
-        logged = true
+        logged = super.enable
     }
 
     override public func dlog(type: LightyMessageType,
@@ -76,7 +90,7 @@ class MockLightyLogger: LightyLogger {
                               function: String = #function,
                               line: Int = #line) {
         super.dlog(type: type, message: message)
-        logged = true
+        logged = super.enable
     }
     
 }
