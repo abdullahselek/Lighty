@@ -3,7 +3,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager Compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Coverage Status](https://coveralls.io/repos/github/abdullahselek/Lighty/badge.svg?branch=master)](https://coveralls.io/github/abdullahselek/Lighty?branch=master)
-![Platform](https://img.shields.io/badge/platform-iOS | macOS | tvOS | watchOS | Linux-lightgrey.svg)
+![Platform](https://img.shields.io/cocoapods/p/Lighty.svg?style=flat)
 
 # Lighty
 Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Swift.
