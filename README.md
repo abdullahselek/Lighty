@@ -4,6 +4,7 @@
 [![Swift Package Manager Compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Coverage Status](https://coveralls.io/repos/github/abdullahselek/Lighty/badge.svg?branch=master)](https://coveralls.io/github/abdullahselek/Lighty?branch=master)
 ![Platform](https://img.shields.io/cocoapods/p/Lighty.svg?style=flat)
+![License](https://img.shields.io/dub/l/vibe-d.svg)
 
 # Lighty
 Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Swift.
