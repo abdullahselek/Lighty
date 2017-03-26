@@ -35,6 +35,17 @@ target '<Your Target Name>' do
 end
 ```
 
+Lighty now supports iOS 8, to use Lighty in iOS 8 with CocoaPods
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+	pod 'Lighty', :git => 'https://github.com/abdullahselek/Lighty.git', :branch => 'ios8'
+end
+```
+
 Then, run the following command:
 ```
 $ pod install
@@ -55,6 +66,12 @@ To integrate Lighty into your Xcode project using Carthage, specify it in your C
 
 ```
 github "abdullahselek/Lighty" ~> 1.1.3
+```
+
+Lighty which supports iOS 8 with Carthage
+
+```
+git "https://github.com/abdullahselek/Lighty.git" "ios8"
 ```
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
