@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43713A91E9008A200C21A9C /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43713A71E90086600C21A9C /* LightyLoggerTests.swift */; };
+		A43713AA1E9008A500C21A9C /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43713A71E90086600C21A9C /* LightyLoggerTests.swift */; };
+		A43713AB1E9008A600C21A9C /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43713A71E90086600C21A9C /* LightyLoggerTests.swift */; };
+		A43713AD1E90091200C21A9C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A43713AC1E90091200C21A9C /* Info.plist */; };
 		A4DBDE5A1E0D1D6800E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE501E0D1D6800E78A70 /* Lighty.framework */; };
-		A4DBDE5F1E0D1D6800E78A70 /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE5E1E0D1D6800E78A70 /* LightyLoggerTests.swift */; };
 		A4DBDE761E0D1D8600E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */; };
-		A4DBDE7B1E0D1D8600E78A70 /* LightyLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE7A1E0D1D8600E78A70 /* LightyLoggerTests.swift */; };
 		A4DBDE921E0D1D9A00E78A70 /* Lighty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */; };
-		A4DBDE971E0D1D9A00E78A70 /* Lighty_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDE961E0D1D9A00E78A70 /* Lighty_tvOSTests.swift */; };
 		A4DBDEA31E0D1DED00E78A70 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4DBDEA41E0D1DED00E78A70 /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */; };
 		A4DBDEAB1E0D1F1F00E78A70 /* Lighty.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DBDEA11E0D1DED00E78A70 /* Lighty.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,18 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43713A71E90086600C21A9C /* LightyLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightyLoggerTests.swift; path = Tests/LightyLoggerTests.swift; sourceTree = "<group>"; };
+		A43713AC1E90091200C21A9C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
 		A4DBDE501E0D1D6800E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DBDE591E0D1D6800E78A70 /* Lighty-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4DBDE5E1E0D1D6800E78A70 /* LightyLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightyLoggerTests.swift; sourceTree = "<group>"; };
-		A4DBDE601E0D1D6800E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4DBDE6D1E0D1D8500E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DBDE751E0D1D8600E78A70 /* Lighty-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4DBDE7A1E0D1D8600E78A70 /* LightyLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightyLoggerTests.swift; sourceTree = "<group>"; };
-		A4DBDE7C1E0D1D8600E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4DBDE891E0D1D9A00E78A70 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DBDE911E0D1D9A00E78A70 /* Lighty-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lighty-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4DBDE961E0D1D9A00E78A70 /* Lighty_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighty_tvOSTests.swift; sourceTree = "<group>"; };
-		A4DBDE981E0D1D9A00E78A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4DBDEA11E0D1DED00E78A70 /* Lighty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lighty.h; path = Sources/Lighty.h; sourceTree = "<group>"; };
 		A4DBDEA21E0D1DED00E78A70 /* LightyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightyLogger.swift; path = Sources/LightyLogger.swift; sourceTree = "<group>"; };
 		A4DBDEA51E0D1E9900E78A70 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
@@ -125,13 +122,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A43713A61E90084500C21A9C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A43713AC1E90091200C21A9C /* Info.plist */,
+				A43713A71E90086600C21A9C /* LightyLoggerTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 		A4DBDE441E0D1D4200E78A70 = {
 			isa = PBXGroup;
 			children = (
 				A4DBDEA01E0D1DC200E78A70 /* Sources */,
-				A4DBDE5D1E0D1D6800E78A70 /* Lighty-iOSTests */,
-				A4DBDE791E0D1D8600E78A70 /* Lighty-macOSTests */,
-				A4DBDE951E0D1D9A00E78A70 /* Lighty-tvOSTests */,
+				A43713A61E90084500C21A9C /* Tests */,
 				A4DBDE511E0D1D6800E78A70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -148,33 +152,6 @@
 				A4EA4BDA1E0E53BC00B216DF /* Lighty.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A4DBDE5D1E0D1D6800E78A70 /* Lighty-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				A4DBDE5E1E0D1D6800E78A70 /* LightyLoggerTests.swift */,
-				A4DBDE601E0D1D6800E78A70 /* Info.plist */,
-			);
-			path = "Lighty-iOSTests";
-			sourceTree = "<group>";
-		};
-		A4DBDE791E0D1D8600E78A70 /* Lighty-macOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				A4DBDE7A1E0D1D8600E78A70 /* LightyLoggerTests.swift */,
-				A4DBDE7C1E0D1D8600E78A70 /* Info.plist */,
-			);
-			path = "Lighty-macOSTests";
-			sourceTree = "<group>";
-		};
-		A4DBDE951E0D1D9A00E78A70 /* Lighty-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				A4DBDE961E0D1D9A00E78A70 /* Lighty_tvOSTests.swift */,
-				A4DBDE981E0D1D9A00E78A70 /* Info.plist */,
-			);
-			path = "Lighty-tvOSTests";
 			sourceTree = "<group>";
 		};
 		A4DBDEA01E0D1DC200E78A70 /* Sources */ = {
@@ -422,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43713AD1E90091200C21A9C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DBDE5F1E0D1D6800E78A70 /* LightyLoggerTests.swift in Sources */,
+				A43713A91E9008A200C21A9C /* LightyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +476,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DBDE7B1E0D1D8600E78A70 /* LightyLoggerTests.swift in Sources */,
+				A43713AA1E9008A500C21A9C /* LightyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DBDE971E0D1D9A00E78A70 /* Lighty_tvOSTests.swift in Sources */,
+				A43713AB1E9008A600C21A9C /* LightyLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +531,7 @@
 				CLANG_ENABLE_CODE_COVERAGE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = Lighty;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
@@ -564,6 +543,7 @@
 				CLANG_ENABLE_CODE_COVERAGE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = Lighty;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
@@ -743,7 +723,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Lighty-iOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -792,7 +772,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Lighty-iOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -981,7 +961,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Lighty-macOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1031,7 +1011,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Lighty-macOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1214,7 +1194,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Lighty-tvOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1262,7 +1242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Lighty-tvOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.Lighty-tvOSTests";
