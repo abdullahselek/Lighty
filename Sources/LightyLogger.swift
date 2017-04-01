@@ -91,6 +91,23 @@ public class LightyLogger {
         return ""
     }
 
+    internal func threadName() -> String {
+        #if os(Linux)
+            return ""
+        #else
+            if Thread.isMainThread {
+                return ""
+            } else {
+                let threadName = Thread.current.name
+                if let threadName = threadName, !threadName.isEmpty {
+                    return threadName
+                } else {
+                    return String(format: "%@%p", separator, Thread.current)
+                }
+            }
+        #endif
+    }
+
     /**
       Main function print logs
       - parameter type: LightyMessageType
@@ -111,7 +128,8 @@ public class LightyLogger {
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
 
-            print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message)
+            print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message +
+            threadName())
         }
     }
 

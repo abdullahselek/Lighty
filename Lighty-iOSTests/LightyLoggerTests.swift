@@ -64,6 +64,11 @@ class LightyLoggerTests: XCTestCase {
         XCTAssertFalse(mockLogger.logged)
     }
 
+    func testThreadName() {
+        let threadName = logger.threadName()
+        XCTAssertEqual(threadName, "")
+    }
+
     override func tearDown() {
         logger = nil
         super.tearDown()
