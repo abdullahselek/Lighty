@@ -128,8 +128,14 @@ public class LightyLogger {
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
 
-            print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message +
-            threadName())
+            print(type.rawValue +
+                    " " +
+                    getFormattedDate() +
+                    separator +
+                    trackedString +
+                    separator +
+                    message +
+                    threadName())
         }
     }
 
@@ -153,7 +159,14 @@ public class LightyLogger {
 
             let trackedString = "\(fileName).\(fileExtension):\(line) \(function)"
             
-            print(type.rawValue + " " + getFormattedDate() + separator + trackedString + separator +  message)
+            print(type.rawValue +
+                    " " +
+                    getFormattedDate() +
+                    separator +
+                    trackedString +
+                    separator +
+                    message +
+                    threadName())
         #endif
     }
     
