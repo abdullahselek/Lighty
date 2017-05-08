@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.org/abdullahselek/Lighty.svg?branch=master)
+[![Build Status](https://travis-ci.org/abdullahselek/Lighty.svg?branch=master)](https://travis-ci.org/abdullahselek/Lighty)
 ![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Lighty.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager Compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
@@ -31,7 +31,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>1.1.3'
+	pod 'Lighty', '~>1.1.4'
 end
 ```
 
@@ -65,7 +65,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 1.1.3
+github "abdullahselek/Lighty" ~> 1.1.4
 ```
 
 Lighty which supports iOS 8 with Carthage
