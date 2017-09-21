@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode8
+osx_image: xcode9
 
 env:
   global:
@@ -10,24 +10,24 @@ env:
   - MACOS_FRAMEWORK_SCHEME="Lighty-macOS"
   - WATCHOS_FRAMEWORK_SCHEME="Lighty watchOS"
   - TVOS_FRAMEWORK_SCHEME="Lighty-tvOS"
-  - IOS_SDK=iphonesimulator10.0
-  - MACOS_SDK=macosx10.12
-  - WATCHOS_SDK=watchsimulator3.0
-  - TVOS_SDK=appletvsimulator10.0
+  - IOS_SDK=iphonesimulator11.0
+  - MACOS_SDK=macosx10.13
+  - WATCHOS_SDK=watchsimulator4.0
+  - TVOS_SDK=appletvsimulator11.0
   matrix:
-    - DESTINATION="OS=10.0,name=iPhone SE"     SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
-    - DESTINATION="OS=9.0,name=iPhone 6"       SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
-    - DESTINATION="arch=x86_64"                SCHEME="$MACOS_FRAMEWORK_SCHEME"   SDK="$MACOS_SDK"   RUN_TESTS="YES" POD_LINT="NO"
-    - DESTINATION="OS=2.0,name=Apple Watch - 42mm" SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  SDK="$WATCHOS_SDK"   RUN_TESTS="NO"  POD_LINT="NO"
-    - DESTINATION="OS=10.0,name=Apple TV 1080p"    SCHEME="$TVOS_FRAMEWORK_SCHEME"   SDK="$TVOS_SDK"  RUN_TESTS="YES" POD_LINT="NO"
-    - DESTINATION="OS=9.0,name=Apple TV 1080p"     SCHEME="$TVOS_FRAMEWORK_SCHEME"   SDK="$TVOS_SDK"  RUN_TESTS="YES" POD_LINT="NO"
+    - DESTINATION="OS=11.0,name=iPhone SE"          SCHEME="$IOS_FRAMEWORK_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES" POD_LINT="NO"
+    - DESTINATION="OS=10.3.1,name=iPhone 6"         SCHEME="$IOS_FRAMEWORK_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES" POD_LINT="NO"
+    - DESTINATION="arch=x86_64"                     SCHEME="$MACOS_FRAMEWORK_SCHEME"    SDK="$MACOS_SDK"    RUN_TESTS="YES" POD_LINT="NO"
+    - DESTINATION="OS=4.0,name=Apple Watch - 42mm"  SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  SDK="$WATCHOS_SDK"  RUN_TESTS="NO"  POD_LINT="NO"
+    - DESTINATION="OS=11.0,name=Apple TV 1080p"     SCHEME="$TVOS_FRAMEWORK_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
+    - DESTINATION="OS=10.0,name=Apple TV 1080p"     SCHEME="$TVOS_FRAMEWORK_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
 
 before_install:
 - rm -rf /Users/travis/Library/Developer/Xcode/DerivedData/Lighty-*/
 - rvm use $RVM_RUBY_VERSION
 
 install:
-- bundle install --without=documentation --path ../travis_bundle_dir
+- bundle install
 
 script: 
   - set -o pipefail
