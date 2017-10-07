@@ -31,7 +31,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>1.1.4'
+	pod 'Lighty', '~>1.1.5'
 end
 ```
 
@@ -65,7 +65,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 1.1.4
+github "abdullahselek/Lighty" ~> 1.1.5
 ```
 
 Lighty which supports iOS 8 with Carthage
