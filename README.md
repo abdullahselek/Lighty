@@ -10,12 +10,16 @@
 Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Swift.
 
 ## Screenshots
+
 ![default_theme](https://github.com/abdullahselek/Lighty/blob/master/Screenshots/default_theme.png)
 ![dark_theme](https://github.com/abdullahselek/Lighty/blob/master/Screenshots/dark_theme.png)
 
 ## Requirements
 
-iOS 9.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+ / Linux
+| Lighty Version | Minimum iOS Target | Minimum OS X Target | Minimum watchOS Target | Minimum tvOS Target | Swift Version |
+|:--------------------:|:---------------------------:|:---------------------------:|:--------------------:|:---------------------------:|:---------------------------:|
+| 1.1.5 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 4.0 |
+| 1.1.4 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 3.x |
 
 ## CocoaPods
 
