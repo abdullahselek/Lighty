@@ -111,6 +111,20 @@ logger.log(type: .warn, message: "Warn")
 LightyLogger.sharedInstance.log(type: .error, message: "Error for test :)")
 ```
 
+or globally add an instance to `AppDelegate`
+
+```
+import Lighty
+
+let logger = LightyLogger.sharedInstance
+
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    ...
+}
+```
+
+and you can reach `logger` instance from module classes.
+
 You can set your own date formatter and separator
 ```
 let dateFormatter = DateFormatter()
