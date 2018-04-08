@@ -18,6 +18,7 @@ Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Sw
 
 | Lighty Version | Minimum iOS Target | Minimum OS X Target | Minimum watchOS Target | Minimum tvOS Target | Swift Version |
 |:--------------------:|:---------------------------:|:---------------------------:|:--------------------:|:---------------------------:|:---------------------------:|
+| 1.1.6 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 4.1 |
 | 1.1.5 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 4.0 |
 | 1.1.4 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 3.x |
 
@@ -35,7 +36,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>1.1.5'
+	pod 'Lighty', '~>1.1.6'
 end
 ```
 
@@ -69,7 +70,7 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 1.1.5
+github "abdullahselek/Lighty" ~> 1.1.6
 ```
 
 Lighty which supports iOS 8 with Carthage
