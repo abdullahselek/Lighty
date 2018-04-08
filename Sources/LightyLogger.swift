@@ -41,32 +41,32 @@ public enum LightyMessageType: String {
 /**
   Main class for log mechanism
  */
-public class LightyLogger {
+open class LightyLogger {
 
     /**
       Singleton instance of LightyLogger
      */
-    public static let sharedInstance: LightyLogger = LightyLogger()
+    open static let sharedInstance: LightyLogger = LightyLogger()
 
     /**
       DateFormatter used in logs to format log date and time
      */
-    public var dateFormatter: DateFormatter!
+    open var dateFormatter: DateFormatter!
 
     /**
       String used to separate log message
      */
-    public var separator = " | "
+    open var separator = " | "
 
     /**
       Enable/disable formatted date for logs
      */
-    public var enableDate = true
+    open var enableDate = true
 
     /**
       Enable/disable logging
      */
-    public var enable = true
+    open var enable = true
 
     internal init() {
         dateFormatter = createDateFormatter()
@@ -111,11 +111,11 @@ public class LightyLogger {
       - parameter function: String internal parameter to detect function which uses log function
       - parameter line: Int string internal parameter to detect line number which uses log function
      */
-    public func log(type: LightyMessageType,
-                    message: String,
-                    file: String = #file,
-                    function: String = #function,
-                    line: Int = #line) {
+    open func log(type: LightyMessageType,
+                  message: String,
+                  file: String = #file,
+                  function: String = #function,
+                  line: Int = #line) {
         if enable {
             let fileUrl = URL(fileURLWithPath: file)
             let fileExtension = fileUrl.pathExtension
@@ -142,11 +142,11 @@ public class LightyLogger {
      - parameter function: String internal parameter to detect function which uses log function
      - parameter line: Int string internal parameter to detect line number which uses log function
      */
-    public func dlog(type: LightyMessageType,
-                    message: String,
-                    file: String = #file,
-                    function: String = #function,
-                    line: Int = #line) {
+    open func dlog(type: LightyMessageType,
+                   message: String,
+                   file: String = #file,
+                   function: String = #function,
+                   line: Int = #line) {
         #if DEBUG && enable
             let fileUrl = URL(fileURLWithPath: file)
             let fileExtension = fileUrl.pathExtension
