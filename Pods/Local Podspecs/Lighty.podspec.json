@@ -1,6 +1,6 @@
 {
   "name": "Lighty",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "summary": "Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Swift",
   "homepage": "https://github.com/abdullahselek/Lighty",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/abdullahselek/Lighty.git",
-    "tag": "1.1.4"
+    "tag": "1.1.5"
   },
   "platforms": {
     "ios": "9.0",

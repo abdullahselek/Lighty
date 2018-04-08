@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2606BFF89BAB5C6B50B02FB3C61CB90F /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C96166BB4E7172A24A54FBC4CB57DE /* LightyLogger.swift */; };
-		387E1F6C95672B5B67A56B899B66FCE8 /* Lighty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA42E9F6357D3DE28145F930C37E1B4 /* Lighty-dummy.m */; };
+		2E416BD29AA8F984FF40B471CBBB0DDC /* LightyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD7AEC89AF412B0016FD5A03706219 /* LightyLogger.swift */; };
 		3DF4406B382B66683CEA968E576CE0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4CEAC84D45594BA9C6DCA28FC955F6E1 /* Pods-iOS Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A14FDC9E66623A091D768D7E419CF91 /* Pods-iOS Sample-dummy.m */; };
+		4CEAC84D45594BA9C6DCA28FC955F6E1 /* Pods-iOS Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC3AD9A59F247D934E98E9FEB2B345 /* Pods-iOS Sample-dummy.m */; };
+		5468CDA094D2051A0C375CE179666D57 /* Lighty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B451FEA8A3C0333D8207E4B466B475 /* Lighty-dummy.m */; };
 		7661FE8038AC79499507E08B34AEEE2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BA34F555436BC664F431A610C27FF0D1 /* Lighty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB51255E1388153981157B5D9803B9F /* Lighty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2EBAD702708C265FB6E7793784C886B /* Pods-iOS Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F600F9415BF63E913B64370A8D3BB4 /* Pods-iOS Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA34F555436BC664F431A610C27FF0D1 /* Lighty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6EB3E6A7D8963705857F855046E3E5 /* Lighty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2EBAD702708C265FB6E7793784C886B /* Pods-iOS Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A0B35DB016E5FC8E164B79A82C2930 /* Pods-iOS Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,27 +27,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22E05A65137C46D71F69DF1E92DFEF32 /* Pods-iOS Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Sample.release.xcconfig"; sourceTree = "<group>"; };
+		1ED89881C5CDC6CF8CAC4BF21084D84E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		22B451FEA8A3C0333D8207E4B466B475 /* Lighty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lighty-dummy.m"; sourceTree = "<group>"; };
+		32388B742E060CD9490BE2131CDCA08E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3239E38D59A41068010B92BFA1EBCCAE /* Pods-iOS Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS Sample.modulemap"; sourceTree = "<group>"; };
+		351A98F1707527BBF5991C765E17458A /* Pods-iOS Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Sample-resources.sh"; sourceTree = "<group>"; };
+		3BF535290385E945B7E5708AACCFC11D /* Pods-iOS Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		3C16F15F0A8835BEFFB37D049ED885C0 /* Pods_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40616133740C3BB86BDDD6F7EA8275A4 /* Pods-iOS Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Sample.release.xcconfig"; sourceTree = "<group>"; };
 		437FEA4D6E1AA635B6E4E9115E721303 /* Lighty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EB51255E1388153981157B5D9803B9F /* Lighty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lighty-umbrella.h"; sourceTree = "<group>"; };
-		58B948EE7C915606FF00BCE692AE0F30 /* Pods-iOS Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOS Sample.modulemap"; sourceTree = "<group>"; };
+		50BC3AD9A59F247D934E98E9FEB2B345 /* Pods-iOS Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Sample-dummy.m"; sourceTree = "<group>"; };
+		6320CB9C08B33E55DA072343E29D12DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		670FC610294B27F2E1D7B2C99576940E /* Pods-iOS Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Sample-frameworks.sh"; sourceTree = "<group>"; };
-		6AF02BD21E62DDBE97A05A3DE7FE8024 /* Lighty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Lighty.modulemap; sourceTree = "<group>"; };
-		712B37878A24C35782DB482CCFD581F6 /* Lighty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lighty.xcconfig; sourceTree = "<group>"; };
-		8A14FDC9E66623A091D768D7E419CF91 /* Pods-iOS Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Sample-dummy.m"; sourceTree = "<group>"; };
+		707101C6AC52D5B8D34A11CE582FEDE2 /* Pods-iOS Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		742047E86EB19033D2D6009B30FA3274 /* Pods-iOS Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS Sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		82FD7AEC89AF412B0016FD5A03706219 /* LightyLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightyLogger.swift; path = Sources/LightyLogger.swift; sourceTree = "<group>"; };
+		88EC5A0E431BF4FC4930BB912CF17053 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5E677097686EAC1087960C90E1A0DB7 /* Lighty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lighty-prefix.pch"; sourceTree = "<group>"; };
-		A6C96166BB4E7172A24A54FBC4CB57DE /* LightyLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LightyLogger.swift; sourceTree = "<group>"; };
-		ACAB06B204BDAB8A5B4DC6A3BBDD6E42 /* Pods-iOS Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		BB3B0EFEA70AB91E64EE0BA01EFC1E50 /* Pods-iOS Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCA42E9F6357D3DE28145F930C37E1B4 /* Lighty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lighty-dummy.m"; sourceTree = "<group>"; };
-		C3F600F9415BF63E913B64370A8D3BB4 /* Pods-iOS Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS Sample-umbrella.h"; sourceTree = "<group>"; };
-		CA6195F038DBA2672319BC5A6247ACEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D37E08012006CB306F9EB1D5ECD89271 /* Pods-iOS Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E4D805ECB93D2917D69CF45F24893A29 /* Pods-iOS Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Sample-resources.sh"; sourceTree = "<group>"; };
-		E87AC7AFC6D2B7C4F020236D9BFD1578 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A162AF63664A0C054179B435EC9FC5B /* Lighty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Lighty.modulemap; sourceTree = "<group>"; };
+		A37C42B727544887EFA55B76718F6A3D /* Lighty.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Lighty.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0A0B35DB016E5FC8E164B79A82C2930 /* Pods-iOS Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS Sample-umbrella.h"; sourceTree = "<group>"; };
+		C7974E54198B4AC6C3FF6D26161423B3 /* Pods-iOS Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Sample-frameworks.sh"; sourceTree = "<group>"; };
+		CAA0989A244A6345CEF88DCD4233FAC7 /* Lighty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lighty.xcconfig; sourceTree = "<group>"; };
+		EBB0D969C1CFEBB0CF59DEA58594BB23 /* Lighty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lighty-prefix.pch"; sourceTree = "<group>"; };
+		FB6EB3E6A7D8963705857F855046E3E5 /* Lighty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lighty-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,73 +73,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02A1496224B34A0BEAC14CC60FB23D82 /* Support Files */ = {
+		1421E153CC0AE08A1A39D3B29251002C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E87AC7AFC6D2B7C4F020236D9BFD1578 /* Info.plist */,
-				6AF02BD21E62DDBE97A05A3DE7FE8024 /* Lighty.modulemap */,
-				712B37878A24C35782DB482CCFD581F6 /* Lighty.xcconfig */,
-				BCA42E9F6357D3DE28145F930C37E1B4 /* Lighty-dummy.m */,
-				A5E677097686EAC1087960C90E1A0DB7 /* Lighty-prefix.pch */,
-				4EB51255E1388153981157B5D9803B9F /* Lighty-umbrella.h */,
+				88EC5A0E431BF4FC4930BB912CF17053 /* LICENSE */,
+				A37C42B727544887EFA55B76718F6A3D /* Lighty.podspec */,
+				1ED89881C5CDC6CF8CAC4BF21084D84E /* README.md */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/Lighty";
-			sourceTree = "<group>";
-		};
-		27C3DC7AAAB9762C31A1C896D005E938 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				A6C96166BB4E7172A24A54FBC4CB57DE /* LightyLogger.swift */,
-			);
-			path = Sources;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		72D8EE9E8FC4D356E5926BF68A544A40 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91FE1BACB3A289CB08CEE8F20B92C6BE /* Pods-iOS Sample */,
+				7344BE1D2823ED64B1B65C32A97C2324 /* Pods-iOS Sample */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7344BE1D2823ED64B1B65C32A97C2324 /* Pods-iOS Sample */ = {
+			isa = PBXGroup;
+			children = (
+				32388B742E060CD9490BE2131CDCA08E /* Info.plist */,
+				3239E38D59A41068010B92BFA1EBCCAE /* Pods-iOS Sample.modulemap */,
+				707101C6AC52D5B8D34A11CE582FEDE2 /* Pods-iOS Sample-acknowledgements.markdown */,
+				742047E86EB19033D2D6009B30FA3274 /* Pods-iOS Sample-acknowledgements.plist */,
+				50BC3AD9A59F247D934E98E9FEB2B345 /* Pods-iOS Sample-dummy.m */,
+				C7974E54198B4AC6C3FF6D26161423B3 /* Pods-iOS Sample-frameworks.sh */,
+				351A98F1707527BBF5991C765E17458A /* Pods-iOS Sample-resources.sh */,
+				B0A0B35DB016E5FC8E164B79A82C2930 /* Pods-iOS Sample-umbrella.h */,
+				3BF535290385E945B7E5708AACCFC11D /* Pods-iOS Sample.debug.xcconfig */,
+				40616133740C3BB86BDDD6F7EA8275A4 /* Pods-iOS Sample.release.xcconfig */,
+			);
+			name = "Pods-iOS Sample";
+			path = "Target Support Files/Pods-iOS Sample";
+			sourceTree = "<group>";
+		};
+		79D0BF3C215E3BFECC3C57C391C290C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6320CB9C08B33E55DA072343E29D12DA /* Info.plist */,
+				9A162AF63664A0C054179B435EC9FC5B /* Lighty.modulemap */,
+				CAA0989A244A6345CEF88DCD4233FAC7 /* Lighty.xcconfig */,
+				22B451FEA8A3C0333D8207E4B466B475 /* Lighty-dummy.m */,
+				EBB0D969C1CFEBB0CF59DEA58594BB23 /* Lighty-prefix.pch */,
+				FB6EB3E6A7D8963705857F855046E3E5 /* Lighty-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/Lighty";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FAC05928A96D4473EC9C0FA1D6F1BA69 /* Development Pods */,
+				C48F3CC695C548EA2AE35A2300B9E4E5 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E8424F34CFA553162ED062F52E1E5571 /* Products */,
 				72D8EE9E8FC4D356E5926BF68A544A40 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E28CD609F9A217060B2574547458FB8 /* Lighty */ = {
+		A1FE7B29A3189D8590EBA7BCCD4843CF /* Lighty */ = {
 			isa = PBXGroup;
 			children = (
-				27C3DC7AAAB9762C31A1C896D005E938 /* Sources */,
-				02A1496224B34A0BEAC14CC60FB23D82 /* Support Files */,
+				82FD7AEC89AF412B0016FD5A03706219 /* LightyLogger.swift */,
+				1421E153CC0AE08A1A39D3B29251002C /* Pod */,
+				79D0BF3C215E3BFECC3C57C391C290C9 /* Support Files */,
 			);
 			name = Lighty;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		91FE1BACB3A289CB08CEE8F20B92C6BE /* Pods-iOS Sample */ = {
-			isa = PBXGroup;
-			children = (
-				CA6195F038DBA2672319BC5A6247ACEF /* Info.plist */,
-				58B948EE7C915606FF00BCE692AE0F30 /* Pods-iOS Sample.modulemap */,
-				D37E08012006CB306F9EB1D5ECD89271 /* Pods-iOS Sample-acknowledgements.markdown */,
-				BB3B0EFEA70AB91E64EE0BA01EFC1E50 /* Pods-iOS Sample-acknowledgements.plist */,
-				8A14FDC9E66623A091D768D7E419CF91 /* Pods-iOS Sample-dummy.m */,
-				670FC610294B27F2E1D7B2C99576940E /* Pods-iOS Sample-frameworks.sh */,
-				E4D805ECB93D2917D69CF45F24893A29 /* Pods-iOS Sample-resources.sh */,
-				C3F600F9415BF63E913B64370A8D3BB4 /* Pods-iOS Sample-umbrella.h */,
-				ACAB06B204BDAB8A5B4DC6A3BBDD6E42 /* Pods-iOS Sample.debug.xcconfig */,
-				22E05A65137C46D71F69DF1E92DFEF32 /* Pods-iOS Sample.release.xcconfig */,
-			);
-			name = "Pods-iOS Sample";
-			path = "Target Support Files/Pods-iOS Sample";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -145,6 +151,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48F3CC695C548EA2AE35A2300B9E4E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE7B29A3189D8590EBA7BCCD4843CF /* Lighty */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -162,14 +176,6 @@
 				3C16F15F0A8835BEFFB37D049ED885C0 /* Pods_iOS_Sample.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FAC05928A96D4473EC9C0FA1D6F1BA69 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7E28CD609F9A217060B2574547458FB8 /* Lighty */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C29940B0974CECE0286C8E1A20EE5DB /* Build configuration list for PBXNativeTarget "Lighty" */;
 			buildPhases = (
-				F63642A272E78BF0D95D2D31699F77C5 /* Sources */,
+				9802AB86A6DDA30620B4A968D9668369 /* Sources */,
 				2FC36C7D439F63C6040904D535D09CDB /* Frameworks */,
 				52DED05DE4F80BFD50963821B83508F0 /* Headers */,
 			);
@@ -235,8 +241,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -265,12 +271,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F63642A272E78BF0D95D2D31699F77C5 /* Sources */ = {
+		9802AB86A6DDA30620B4A968D9668369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387E1F6C95672B5B67A56B899B66FCE8 /* Lighty-dummy.m in Sources */,
-				2606BFF89BAB5C6B50B02FB3C61CB90F /* LightyLogger.swift in Sources */,
+				5468CDA094D2051A0C375CE179666D57 /* Lighty-dummy.m in Sources */,
+				2E416BD29AA8F984FF40B471CBBB0DDC /* LightyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,39 +292,234 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2B5DD50E6A0077029FEC8C76199D352C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF535290385E945B7E5708AACCFC11D /* Pods-iOS Sample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS Sample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS Sample/Pods-iOS Sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_Sample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		353159C171461A1C6254C14A83919709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA0989A244A6345CEF88DCD4233FAC7 /* Lighty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lighty/Lighty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lighty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Lighty/Lighty.modulemap";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		682B4BFC01D4271AFBEA14D782A3021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA0989A244A6345CEF88DCD4233FAC7 /* Lighty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Lighty/Lighty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Lighty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Lighty/Lighty.modulemap";
+				PRODUCT_NAME = Lighty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE502FE82B6F6BAF70E0F322CD6D991D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40616133740C3BB86BDDD6F7EA8275A4 /* Pods-iOS Sample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS Sample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS Sample/Pods-iOS Sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_Sample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -327,220 +528,23 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		529AC696DFB4DC647DCCA7545C2C751D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACAB06B204BDAB8A5B4DC6A3BBDD6E42 /* Pods-iOS Sample.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS Sample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS Sample/Pods-iOS Sample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_iOS_Sample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6B2ACD34034A0A359CEC1C86A6EFC1CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22E05A65137C46D71F69DF1E92DFEF32 /* Pods-iOS Sample.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS Sample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS Sample/Pods-iOS Sample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_iOS_Sample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A28466300A7C9DCD93C818E5849CBA7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 712B37878A24C35782DB482CCFD581F6 /* Lighty.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Lighty/Lighty-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lighty/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Lighty/Lighty.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Lighty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 4.0;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F82B5E7385616A57C0EED9AD696417A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 712B37878A24C35782DB482CCFD581F6 /* Lighty.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Lighty/Lighty-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lighty/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Lighty/Lighty.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Lighty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -548,8 +552,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
-				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -557,8 +561,8 @@
 		6DF64DF6C995329B494330B398943C61 /* Build configuration list for PBXNativeTarget "Pods-iOS Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				529AC696DFB4DC647DCCA7545C2C751D /* Debug */,
-				6B2ACD34034A0A359CEC1C86A6EFC1CB /* Release */,
+				2B5DD50E6A0077029FEC8C76199D352C /* Debug */,
+				BE502FE82B6F6BAF70E0F322CD6D991D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -566,8 +570,8 @@
 		7C29940B0974CECE0286C8E1A20EE5DB /* Build configuration list for PBXNativeTarget "Lighty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A28466300A7C9DCD93C818E5849CBA7E /* Debug */,
-				F82B5E7385616A57C0EED9AD696417A0 /* Release */,
+				353159C171461A1C6254C14A83919709 /* Debug */,
+				682B4BFC01D4271AFBEA14D782A3021D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
