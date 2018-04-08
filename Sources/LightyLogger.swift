@@ -2,12 +2,7 @@
 //  LightyLogger.swift
 //  Lighty
 //
-//  Created by Abdullah Selek on 17/12/2016.
 //  Copyright © 2016 Abdullah Selek. All rights reserved.
-//
-//  MIT License
-//
-//  Copyright (c) 2016 Abdullah Selek
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
