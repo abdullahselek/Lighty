@@ -46,7 +46,7 @@ open class LightyLogger {
     /**
       Singleton instance of LightyLogger
      */
-    open static let sharedInstance: LightyLogger = LightyLogger()
+    public static let sharedInstance: LightyLogger = LightyLogger()
 
     /**
       DateFormatter used in logs to format log date and time
