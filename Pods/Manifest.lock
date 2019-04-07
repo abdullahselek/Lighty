@@ -1,16 +1,16 @@
 PODS:
-  - Lighty (1.1.5)
+  - Lighty (1.1.7)
 
 DEPENDENCIES:
   - Lighty (from `.`)
 
 EXTERNAL SOURCES:
   Lighty:
-    :path: .
+    :path: "."
 
 SPEC CHECKSUMS:
-  Lighty: 04fac1eb661f876da68ad65e899eb8ed03a81910
+  Lighty: 9decfaed8794256985f7ca1a2b8f8419d0a999dd
 
 PODFILE CHECKSUM: b718a3dbb42c1c7ae58d4371afe9ec3b7c99e22d
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.0.beta.2
