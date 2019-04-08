@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode10
+osx_image: xcode10.2
 
 env:
   global:
@@ -10,24 +10,24 @@ env:
   - MACOS_FRAMEWORK_SCHEME="Lighty-macOS"
   - WATCHOS_FRAMEWORK_SCHEME="Lighty watchOS"
   - TVOS_FRAMEWORK_SCHEME="Lighty-tvOS"
-  - IOS_SDK=iphonesimulator12.0
+  - IOS_SDK=iphonesimulator12.2
   - MACOS_SDK=macosx10.14
-  - WATCHOS_SDK=watchsimulator5.0
-  - TVOS_SDK=appletvsimulator12.0
+  - WATCHOS_SDK=watchsimulator5.2
+  - TVOS_SDK=appletvsimulator12.2
   matrix:
-    - DESTINATION="OS=12.0,name=iPhone XR"          SCHEME="$IOS_FRAMEWORK_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES" POD_LINT="NO"
+    - DESTINATION="OS=12.2,name=iPhone XS"          SCHEME="$IOS_FRAMEWORK_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES" POD_LINT="NO"
     - DESTINATION="OS=11.4,name=iPhone X"           SCHEME="$IOS_FRAMEWORK_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES" POD_LINT="NO"
     - DESTINATION="OS=10.3.1,name=iPhone 7"         SCHEME="$IOS_FRAMEWORK_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES" POD_LINT="NO"
     - DESTINATION="OS=9.3,name=iPhone 6"            SCHEME="$IOS_FRAMEWORK_SCHEME"      SDK="$IOS_SDK"      RUN_TESTS="YES" POD_LINT="NO"
 
     - DESTINATION="arch=x86_64"                     SCHEME="$MACOS_FRAMEWORK_SCHEME"    SDK="$MACOS_SDK"    RUN_TESTS="YES" POD_LINT="NO"
 
-    - DESTINATION="OS=5.0,name=Apple Watch Series 4 - 44mm"  SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  SDK="$WATCHOS_SDK"  RUN_TESTS="NO"  POD_LINT="NO"
+    - DESTINATION="OS=5.2,name=Apple Watch Series 4 - 44mm"  SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  SDK="$WATCHOS_SDK"  RUN_TESTS="NO"  POD_LINT="NO"
     - DESTINATION="OS=4.2,name=Apple Watch Series 3 - 42mm"  SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  SDK="$WATCHOS_SDK"  RUN_TESTS="NO"  POD_LINT="NO"
     - DESTINATION="OS=3.2,name=Apple Watch - 42mm"  SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  SDK="$WATCHOS_SDK"  RUN_TESTS="NO"  POD_LINT="NO"
     - DESTINATION="OS=2.2,name=Apple Watch - 42mm"  SCHEME="$WATCHOS_FRAMEWORK_SCHEME"  SDK="$WATCHOS_SDK"  RUN_TESTS="NO"  POD_LINT="NO"
 
-    - DESTINATION="OS=12.0,name=Apple TV 4K"        SCHEME="$TVOS_FRAMEWORK_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
+    - DESTINATION="OS=12.2,name=Apple TV 4K"        SCHEME="$TVOS_FRAMEWORK_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
     - DESTINATION="OS=11.4,name=Apple TV 4K"        SCHEME="$TVOS_FRAMEWORK_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
     - DESTINATION="OS=10.2,name=Apple TV 1080p"     SCHEME="$TVOS_FRAMEWORK_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
     - DESTINATION="OS=9.2,name=Apple TV 1080p"      SCHEME="$TVOS_FRAMEWORK_SCHEME"     SDK="$TVOS_SDK"     RUN_TESTS="YES" POD_LINT="NO"
