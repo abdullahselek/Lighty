@@ -18,6 +18,7 @@ Easy to use and lightweight logger for iOS, macOS, tvOS, watchOS and Linux in Sw
 
 | Lighty Version | Minimum iOS Target | Minimum OS X Target | Minimum watchOS Target | Minimum tvOS Target | Swift Version |
 |:--------------------:|:---------------------------:|:---------------------------:|:--------------------:|:---------------------------:|:---------------------------:|
+| 1.1.8 | iOS 10 | OS X 10.11 | watchOS 3.0 | tvOS 10.0 | Swift 5 |
 | 1.1.7 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 4.2 |
 | 1.1.6 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 4.1 |
 | 1.1.5 | iOS 9 | OS X 10.9 | watchOS 2.0 | tvOS 9.0 | Swift 4.0 |
@@ -33,22 +34,11 @@ $ gem install cocoapods
 To integrate Lighty into your Xcode project using CocoaPods, specify it in your Podfile:
 ```
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'Lighty', '~>1.1.7'
-end
-```
-
-Lighty now supports iOS 8, to use Lighty in iOS 8 with CocoaPods
-```
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
-use_frameworks!
-
-target '<Your Target Name>' do
-	pod 'Lighty', :git => 'https://github.com/abdullahselek/Lighty.git', :branch => 'ios8'
+	pod 'Lighty', '~>1.1.8'
 end
 ```
 
@@ -71,31 +61,20 @@ brew install carthage
 To integrate Lighty into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```
-github "abdullahselek/Lighty" ~> 1.1.7
-```
-
-Lighty which supports iOS 8 with Carthage
-
-```
-git "https://github.com/abdullahselek/Lighty.git" "ios8"
+github "abdullahselek/Lighty" ~> 1.1.8
 ```
 
 Run carthage update to build the framework and drag the built Lighty.framework into your Xcode project.
 
 ## Swift Package Manager
 
-```
-import PackageDescription
+Modify your Package.swift file to include the following dependency:
 
-let package = Package(
-    name: "Your project name",
-    dependencies: [
-        .Package(url: "https://github.com/abdullahselek/Lighty.git", majorVersion: 1, minor: 1)
-    ]
-)
+```
+.package(url: "https://github.com/abdullahselek/Lighty.git", from: "1.1.8")
 ```
 
-Run ```swift package fetch```
+Run  `swift package resolve`
 
 ## Example Usage
 ```
