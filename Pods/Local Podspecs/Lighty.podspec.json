@@ -8,18 +8,20 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Abdullah Selek": "abdullahselek@yahoo.com"
+    "Abdullah Selek": "abdullahselek@gmail.com"
   },
   "source": {
     "git": "https://github.com/abdullahselek/Lighty.git",
     "tag": "1.1.7"
   },
   "platforms": {
-    "ios": "9.0",
-    "osx": "10.9",
-    "tvos": "9.0",
-    "watchos": "2.0"
+    "ios": "10.0",
+    "osx": "10.11",
+    "tvos": "10.0",
+    "watchos": "3.0"
   },
   "source_files": "Sources/*.swift",
-  "requires_arc": true
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
